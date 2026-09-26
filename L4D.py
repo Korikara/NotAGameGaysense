@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # ┌─────────────────────────────────────────────────────────────────────────────┐
 # │                    @L4DXOP UNLIMITED LUA TOOL                              │
@@ -139,6 +140,7 @@ from rich import print as rprint
 
 console = Console()
 
+            
 def safe_input(prompt: str = "") -> str:
     try:
         return input(prompt)
@@ -290,7 +292,20 @@ PAK_DIR    = LUA_PAK_ROOT / "PAK_ORIGINAL"
 PAK_UNPACK_DIR = LUA_PAK_ROOT / "PAK_UNPACK"
 RESULT_DIR = LUA_PAK_ROOT / "PAK_RESULT"
 CONFIG_FILE_PATH = LUA_PAK_ROOT / "config.json"
+DECOMP_LOG_FILE = LUA_PAK_ROOT / "decompile_debug.log"
 
+def decomp_log(message: str):
+    try:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        line = f"[{timestamp}] {message}"
+
+        with open(DECOMP_LOG_FILE, "a", encoding="utf-8") as log:
+            log.write(line + "\n")
+
+        console.print(f"[dim]{line}[/dim]")
+    except Exception as e:
+        console.print(f"[yellow]DEBUG LOG ERROR: {e}[/yellow]")
+            
 FORCE_COMPILE = True
 SKIP_ALL_FIXES = True
 SKIP_AUTO_FIX = True
@@ -605,22 +620,173 @@ def decrypt_decompile_file(file_path: str, output_dir: str, progress_callback=No
         if progress_callback: progress_callback(f"Exception: {e}")
         return False
 
-def robust_decompile(encrypted_path: str, output_dir: str, tmp_dir: str) -> Tuple[bool, str, List[str]]:
-    name = os.path.basename(encrypted_path); base = os.path.splitext(name)[0]
-    out_path = os.path.join(output_dir, base + ".lua")
-    temp_std = os.path.join(tmp_dir, base + ".std.luac")
-    ok, msg = convert_file(encrypted_path, temp_std)
-    if not ok: return False, msg, []
-    if not os.path.exists(UNLUAC_JAR): return False, "unluac_patched.jar not found", []
-    try:
-        cmd = [JAVA_CMD, "-jar", UNLUAC_JAR, temp_std]
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-        if result.returncode == 0 and result.stdout:
-            with open(out_path, 'w', encoding='utf-8') as f: f.write(result.stdout)
-            return True, out_path, []
-        else: return False, f"Decompilation failed: {(result.stderr or 'unknown error').strip()[:200]}", []
-    except subprocess.TimeoutExpired: return False, "Decompilation timed out", []
-    except Exception as e: return False, str(e), []
+    def robust_decompile(encrypted_path: str, output_dir: str, tmp_dir: str) -> Tuple[bool, str, List[str]]:
+        name = os.path.basename(encrypted_path)
+        base = os.path.splitext(name)[0]
+
+        out_path = os.path.join(output_dir, base + ".lua")
+        temp_std = os.path.join(tmp_dir, base + ".std.luac")
+
+        decomp_log("=" * 80)
+        decomp_log(f"START DECOMPILATION: {name}")
+        decomp_log(f"Input: {encrypted_path}")
+        decomp_log(f"Output: {out_path}")
+        decomp_log(f"Temp dir: {tmp_dir}")
+        decomp_log(f"Temp bytecode: {temp_std}")
+
+        try:
+            if os.path.exists(encrypted_path):
+                decomp_log(
+                    f"Input size: {os.path.getsize(encrypted_path):,} bytes"
+                )
+            else:
+                decomp_log("ERROR: input file does not exist")
+                return False, "Input file not found", []
+
+            decomp_log("STEP 1: convert_file()")
+
+            ok, msg = convert_file(encrypted_path, temp_std)
+
+            decomp_log(f"convert_file result: ok={ok}")
+            decomp_log(f"convert_file message: {msg}")
+
+            if not ok:
+                decomp_log("STOP: conversion failed")
+                return False, msg, []
+
+            if not os.path.exists(temp_std):
+                decomp_log("STOP: converted bytecode file was not created")
+                return False, "Converted bytecode file not created", []
+
+            decomp_log(
+                f"Converted bytecode size: {os.path.getsize(temp_std):,} bytes"
+            )
+
+            decomp_log(f"UNLUAC_JAR: {UNLUAC_JAR}")
+            decomp_log(f"JAVA_CMD: {JAVA_CMD}")
+
+            if not os.path.exists(UNLUAC_JAR):
+                decomp_log("STOP: unluac_patched.jar not found")
+                return False, "unluac_patched.jar not found", []
+
+            decomp_log(
+                f"JAR size: {os.path.getsize(UNLUAC_JAR):,} bytes"
+            )
+
+            cmd = [JAVA_CMD, "-jar", UNLUAC_JAR, temp_std]
+
+            decomp_log(f"COMMAND: {cmd}")
+
+            start_time = time.time()
+
+            decomp_log("STEP 2: launching unluac")
+
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+
+            elapsed = time.time() - start_time
+
+            decomp_log(
+                f"unluac finished in {elapsed:.3f} seconds"
+            )
+
+            decomp_log(
+                f"RETURN CODE: {result.returncode}"
+            )
+
+            decomp_log(
+                f"STDOUT LENGTH: {len(result.stdout or '')}"
+            )
+
+            decomp_log(
+                f"STDERR LENGTH: {len(result.stderr or '')}"
+            )
+
+            if result.stdout:
+                decomp_log("----- UNLUAC STDOUT BEGIN -----")
+                decomp_log(result.stdout.rstrip())
+                decomp_log("----- UNLUAC STDOUT END -----")
+
+            if result.stderr:
+                decomp_log("----- UNLUAC STDERR BEGIN -----")
+                decomp_log(result.stderr.rstrip())
+                decomp_log("----- UNLUAC STDERR END -----")
+
+            if result.returncode == 0 and result.stdout:
+                try:
+                    with open(out_path, "w", encoding="utf-8") as f:
+                        f.write(result.stdout)
+
+                    output_size = os.path.getsize(out_path)
+
+                    decomp_log(
+                        f"SUCCESS: output created: {out_path}"
+                    )
+
+                    decomp_log(
+                        f"Output size: {output_size:,} bytes"
+                    )
+
+                    decomp_log("DECOMPILATION SUCCESS")
+
+                    return True, out_path, []
+
+                except Exception as write_error:
+                    decomp_log(
+                        f"ERROR writing output: {write_error}"
+                    )
+
+                    decomp_log(traceback.format_exc())
+
+                    return False, str(write_error), []
+
+            error_text = (
+                result.stderr.strip()
+                if result.stderr
+                else result.stdout.strip()
+                if result.stdout
+                else "unknown error"
+            )
+
+            decomp_log(
+                f"DECOMPILATION FAILED: {error_text}"
+            )
+
+            return False, (
+                f"Decompilation failed: {error_text[:500]}"
+            ), []
+
+        except subprocess.TimeoutExpired as e:
+            decomp_log("ERROR: unluac TIMEOUT after 30 seconds")
+            decomp_log(f"Timeout exception: {e}")
+            decomp_log(traceback.format_exc())
+
+            return False, "Decompilation timed out", []
+
+        except Exception as e:
+            decomp_log(f"EXCEPTION: {e}")
+            decomp_log(traceback.format_exc())
+
+            return False, str(e), []
+
+        finally:
+            if os.path.exists(temp_std):
+                try:
+                    decomp_log(
+                        f"Removing temporary file: {temp_std}"
+                    )
+                    os.remove(temp_std)
+                except Exception as cleanup_error:
+                    decomp_log(
+                        f"Failed to remove temp file: {cleanup_error}"
+                    )
+
+            decomp_log(f"END DECOMPILATION: {name}")
+            decomp_log("=" * 80)
 
 def select_files_interactive(files: List[str], source_dir: str, action_name: str) -> List[str]:
     if not files: return []
@@ -2860,6 +3026,12 @@ def action_inject_lua():
 # ==============================================================================
 
 def main_menu():
+    try:
+        if DECOMP_LOG_FILE.exists():
+            DECOMP_LOG_FILE.unlink()
+    except Exception:
+        pass
+        
     setup_directories()
     ab = AnimatedBorder.get_instance()
 
