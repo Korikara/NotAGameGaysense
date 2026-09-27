@@ -1,0 +1,3053 @@
+=== _420 VM STATIC ANALYSIS ===
+file=/data/data/com.termux/files/home/.termux/pakges/h420_I9cSbl/_420_decompressed.bin
+size=57704
+code_start=0xc225
+code_size=8003
+
+=== OPCODE BYTE COUNTS ===
+80: 11
+88: 116
+90: 171
+98: 95
+a0: 131
+a8: 96
+b0: 61
+b8: 47
+c0: 52
+c8: 49
+d0: 134
+d8: 113
+e0: 9
+e8: 0
+f0: 633
+f8: 0
+
+=== TWO-BYTE PATTERNS ===
+f000 : 633
+0000 : 633
+007e : 158
+005e : 156
+006e : 156
+004e : 156
+51d0 : 58
+02f0 : 58
+05f0 : 53
+0af0 : 53
+03f0 : 52
+06f0 : 52
+07f0 : 52
+08f0 : 52
+0bf0 : 52
+01f0 : 51
+04f0 : 51
+09f0 : 51
+0e88 : 37
+d808 : 36
+a851 : 34
+9061 : 34
+6190 : 32
+d050 : 30
+d051 : 30
+a005 : 29
+05a0 : 29
+a058 : 29
+5152 : 29
+d804 : 28
+d809 : 28
+090e : 28
+8868 : 28
+6890 : 28
+9079 : 28
+79a0 : 28
+58a8 : 28
+d02e : 28
+2e43 : 28
+43c0 : 28
+c035 : 28
+35c8 : 28
+c808 : 28
+08d0 : 28
+5051 : 28
+52d8 : 27
+d80c : 16
+0b88 : 15
+016e : 14
+034e : 14
+055e : 14
+066e : 14
+084e : 14
+0a5e : 14
+0b6e : 14
+080b : 13
+027e : 13
+077e : 13
+015e : 13
+017e : 13
+024e : 13
+025e : 13
+026e : 13
+037e : 13
+035e : 13
+046e : 13
+047e : 13
+044e : 13
+056e : 13
+057e : 13
+054e : 13
+065e : 13
+067e : 13
+074e : 13
+075e : 13
+076e : 13
+087e : 13
+085e : 13
+096e : 13
+097e : 13
+
+=== THREE-BYTE PATTERNS ===
+f00000 : 633
+00007e : 158
+00005e : 156
+00006e : 156
+00004e : 156
+02f000 : 58
+05f000 : 53
+0af000 : 53
+03f000 : 52
+06f000 : 52
+07f000 : 52
+08f000 : 52
+0bf000 : 52
+01f000 : 51
+04f000 : 51
+09f000 : 51
+906190 : 32
+a005a0 : 29
+51d051 : 29
+d05152 : 29
+d8090e : 28
+090e88 : 28
+0e8868 : 28
+886890 : 28
+689061 : 28
+619079 : 28
+9079a0 : 28
+79a005 : 28
+05a058 : 28
+a058a8 : 28
+58a851 : 28
+a851d0 : 28
+51d02e : 28
+d02e43 : 28
+2e43c0 : 28
+43c035 : 28
+c035c8 : 28
+35c808 : 28
+c808d0 : 28
+08d050 : 28
+d05051 : 28
+5051d0 : 28
+5152d8 : 27
+52d809 : 27
+d8080b : 13
+080b88 : 13
+0405d8 : 11
+0cf000 : 11
+d8080c : 9
+080c88 : 9
+05d808 : 8
+d8080e : 8
+080e88 : 8
+e00405 : 8
+905190 : 7
+d80409 : 7
+d80407 : 7
+040780 : 7
+d80c0f : 7
+0c0f88 : 7
+01d804 : 6
+d8080d : 6
+080d88 : 6
+d80408 : 6
+040888 : 6
+d80c10 : 5
+0c1090 : 5
+a851a8 : 5
+b031b0 : 5
+21d804 : 5
+884590 : 5
+a001a0 : 5
+901590 : 5
+8001d8 : 4
+906598 : 4
+0b8834 : 4
+883488 : 4
+41d808 : 4
+982198 : 4
+983298 : 4
+886790 : 4
+31d804 : 4
+b821d8 : 4
+71d808 : 4
+0c8845 : 4
+981198 : 4
+982298 : 4
+11d808 : 4
+887490 : 4
+0409d0 : 4
+09d009 : 4
+a053a8 : 4
+a805a8 : 4
+51d808 : 4
+902798 : 4
+71d80c : 4
+903798 : 4
+d80405 : 3
+109006 : 3
+900690 : 3
+
+=== REPEATED BLOCKS ===
+-- block size 8 --
+d8090e8868906190 count=28 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079 count=28 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a0 count=28 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005 count=28 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a0 count=28 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058 count=28 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a8 count=28 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851 count=28 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d0 count=28 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e count=28 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+-- block size 12 --
+d8090e886890619079a005a0 count=28 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079a005a058 count=28 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a005a058a8 count=28 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005a058a851 count=28 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a058a851d0 count=28 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058a851d02e count=28 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a851d02e43 count=28 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851d02e43c0 count=28 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d02e43c035 count=28 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e43c035c8 count=28 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+-- block size 16 --
+d8090e886890619079a005a058a851d0 count=28 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079a005a058a851d02e count=28 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a005a058a851d02e43 count=28 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005a058a851d02e43c0 count=28 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a058a851d02e43c035 count=28 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058a851d02e43c035c8 count=28 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a851d02e43c035c808 count=28 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851d02e43c035c808d0 count=28 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d02e43c035c808d050 count=28 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e43c035c808d05051 count=28 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+-- block size 20 --
+d8090e886890619079a005a058a851d02e43c035 count=28 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079a005a058a851d02e43c035c8 count=28 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a005a058a851d02e43c035c808 count=28 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005a058a851d02e43c035c808d0 count=28 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a058a851d02e43c035c808d050 count=28 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058a851d02e43c035c808d05051 count=28 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a851d02e43c035c808d05051d0 count=28 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851d02e43c035c808d05051d051 count=28 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d02e43c035c808d05051d05152 count=28 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e43c035c808d05051d05152d8 count=27 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+-- block size 24 --
+d8090e886890619079a005a058a851d02e43c035c808d050 count=28 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079a005a058a851d02e43c035c808d05051 count=28 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a005a058a851d02e43c035c808d05051d0 count=28 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005a058a851d02e43c035c808d05051d051 count=28 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a058a851d02e43c035c808d05051d05152 count=28 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058a851d02e43c035c808d05051d05152d8 count=27 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a851d02e43c035c808d05051d05152d809 count=27 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851d02e43c035c808d05051d05152d8090e count=27 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d02e43c035c808d05051d05152d8090e88 count=27 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e43c035c808d05051d05152d8090e8868 count=27 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+-- block size 32 --
+d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e88 count=27 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e8868 count=27 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890 count=27 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005a058a851d02e43c035c808d05051d05152d8090e88689061 count=27 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a058a851d02e43c035c808d05051d05152d8090e8868906190 count=27 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079 count=27 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a0 count=27 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005 count=27 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a0 count=27 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058 count=27 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+-- block size 48 --
+d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035 count=27 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c8 count=27 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808 count=27 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d0 count=27 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d050 count=27 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051 count=27 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d0 count=27 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d051 count=27 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152 count=27 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8 count=26 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+-- block size 64 --
+d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e8868906190 count=26 positions=0xc310,0xc32c,0xc348,0xc364,0xc380,0xc39c,0xc3b8,0xc3d4,0xc3f0,0xc40c,0xc428,0xc444,0xc460,0xc47c,0xc498,0xc4b4,0xc4d0,0xc4ec,0xc508,0xc524
+090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079 count=26 positions=0xc311,0xc32d,0xc349,0xc365,0xc381,0xc39d,0xc3b9,0xc3d5,0xc3f1,0xc40d,0xc429,0xc445,0xc461,0xc47d,0xc499,0xc4b5,0xc4d1,0xc4ed,0xc509,0xc525
+0e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a0 count=26 positions=0xc312,0xc32e,0xc34a,0xc366,0xc382,0xc39e,0xc3ba,0xc3d6,0xc3f2,0xc40e,0xc42a,0xc446,0xc462,0xc47e,0xc49a,0xc4b6,0xc4d2,0xc4ee,0xc50a,0xc526
+886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005 count=26 positions=0xc313,0xc32f,0xc34b,0xc367,0xc383,0xc39f,0xc3bb,0xc3d7,0xc3f3,0xc40f,0xc42b,0xc447,0xc463,0xc47f,0xc49b,0xc4b7,0xc4d3,0xc4ef,0xc50b,0xc527
+6890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a0 count=26 positions=0xc314,0xc330,0xc34c,0xc368,0xc384,0xc3a0,0xc3bc,0xc3d8,0xc3f4,0xc410,0xc42c,0xc448,0xc464,0xc480,0xc49c,0xc4b8,0xc4d4,0xc4f0,0xc50c,0xc528
+90619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058 count=26 positions=0xc315,0xc331,0xc34d,0xc369,0xc385,0xc3a1,0xc3bd,0xc3d9,0xc3f5,0xc411,0xc42d,0xc449,0xc465,0xc481,0xc49d,0xc4b9,0xc4d5,0xc4f1,0xc50d,0xc529
+619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a8 count=26 positions=0xc316,0xc332,0xc34e,0xc36a,0xc386,0xc3a2,0xc3be,0xc3da,0xc3f6,0xc412,0xc42e,0xc44a,0xc466,0xc482,0xc49e,0xc4ba,0xc4d6,0xc4f2,0xc50e,0xc52a
+9079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851 count=26 positions=0xc317,0xc333,0xc34f,0xc36b,0xc387,0xc3a3,0xc3bf,0xc3db,0xc3f7,0xc413,0xc42f,0xc44b,0xc467,0xc483,0xc49f,0xc4bb,0xc4d7,0xc4f3,0xc50f,0xc52b
+79a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d0 count=26 positions=0xc318,0xc334,0xc350,0xc36c,0xc388,0xc3a4,0xc3c0,0xc3dc,0xc3f8,0xc414,0xc430,0xc44c,0xc468,0xc484,0xc4a0,0xc4bc,0xc4d8,0xc4f4,0xc510,0xc52c
+a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e43c035c808d05051d05152d8090e886890619079a005a058a851d02e count=26 positions=0xc319,0xc335,0xc351,0xc36d,0xc389,0xc3a5,0xc3c1,0xc3dd,0xc3f9,0xc415,0xc431,0xc44d,0xc469,0xc485,0xc4a1,0xc4bd,0xc4d9,0xc4f5,0xc511,0xc52d
+
+=== POSSIBLE INSTRUCTION RECORDS ===
+OP 80: 11 occurrences
+  operands: 01(4) 73(3) 71(2) 74(1) 79(1)
+  first: c225:01 c296:01 c6ce:71 c6db:01 c6e0:71 dcab:74 df3e:01 df43:73 df58:73 df6d:73 df97:79
+OP 88: 116 occurrences
+  operands: 68(28) 45(5) 34(4) 67(4) 61(4) 31(4) 74(4) 71(3) 53(3) 05(3) 51(3) 73(3) 43(2) 75(2) 66(2) 07(2) 63(2) 41(2) 7a(2) 44(2) 46(2) 55(2) 38(2) 76(2) 3a(1) 58(1) 23(1) 5b(1) 24(1) 01(1)
+  first: c22d:3a c252:43 c254:71 c25b:34 c25d:75 c264:53 c273:66 c28c:67 c29b:05 c29d:58 c2b1:05 c2b3:51 c2b5:61 c2b7:73 c2d6:23 c2d8:5b c2f1:24 c2f3:67 c30e:01 c313:68 c32f:68 c34b:68 c367:68 c383:68 c39f:68 c3bb:68 c3d7:68 c3f3:68 c40f:68 c42b:68 c447:68 c463:68 c47f:68 c49b:68 c4b7:68 c4d3:68 c4ef:68 c50b:68 c527:68 c543:68
+OP 90: 171 occurrences
+  operands: 61(34) 79(28) 51(9) 15(5) 65(4) 31(4) 71(4) 27(4) 37(4) 06(3) 01(3) 41(3) 21(3) 68(3) 11(3) 32(3) 02(3) 23(3) 03(3) 62(2) 33(2) 56(2) 63(2) 78(2) 53(2) 67(2) 57(2) 38(2) 0a(1) 47(1)
+  first: c22f:51 c231:62 c238:06 c23a:65 c256:01 c25f:41 c266:0a c275:47 c28e:51 c290:65 c29f:51 c2b9:21 c2bb:33 c2bd:61 c2bf:73 c2f5:51 c2f7:68 c315:61 c317:79 c331:61 c333:79 c34d:61 c34f:79 c369:61 c36b:79 c385:61 c387:79 c3a1:61 c3a3:79 c3bd:61 c3bf:79 c3d9:61 c3db:79 c3f5:61 c3f7:79 c411:61 c413:79 c42d:61 c42f:79 c449:61
+OP 98: 95 occurrences
+  operands: 51(6) 61(5) 11(5) 21(4) 32(4) 22(4) 01(3) 31(3) 17(3) 42(3) 43(2) 71(2) 44(2) 34(2) 74(2) 6a(2) 77(2) 41(2) 53(2) 05(2) 64(2) 45(2) 73(2) 54(2) 75(2) 25(2) 65(2) 35(2) 36(1) 37(1)
+  first: c233:01 c23c:31 c23e:43 c240:71 c268:21 c26a:32 c26c:51 c26e:61 c277:31 c279:44 c292:32 c294:51 c2c1:21 c2c3:34 c2c5:74 c2da:01 c2dc:17 c2f9:6a c639:34 c63b:77 c65a:11 c65c:22 c65e:41 c660:53 c688:36 c6bb:05 c6bd:51 c6bf:64 dc9e:11 dca0:22 dca2:45 dcb9:73 dcd3:01 dce1:05 dce3:54 dd22:37 dd43:61 dd45:75 dd62:11 dd64:25
+OP a0: 131 occurrences
+  operands: 05(29) 58(29) 01(5) 71(4) 11(4) 53(4) 51(3) 07(3) 41(3) 17(3) 21(3) 61(2) 74(2) 36(2) 67(2) 13(2) 54(2) 24(2) 23(2) 14(2) 33(2) 65(2) 0d(1) 66(1) 25(1) 55(1) 45(1) 32(1) 34(1) 68(1)
+  first: c242:05 c244:51 c246:61 c248:74 c27b:0d c2c7:36 c2de:07 c2e0:71 c319:05 c31b:58 c335:05 c337:58 c351:05 c353:58 c36d:05 c36f:58 c389:05 c38b:58 c3a5:05 c3a7:58 c3c1:05 c3c3:58 c3dd:05 c3df:58 c3f9:05 c3fb:58 c415:05 c417:58 c431:05 c433:58 c44d:05 c44f:58 c469:05 c46b:58 c485:05 c487:58 c4a1:05 c4a3:58 c4bd:05 c4bf:58
+OP a8: 96 occurrences
+  operands: 51(34) 61(4) 05(4) 31(3) 01(3) 71(3) 45(3) 41(3) 15(2) 04(2) 14(2) 26(2) 65(2) 62(1) 73(1) 47(1) 67(1) 63(1) 56(1) 07(1) 52(1) 72(1) 17(1) 55(1) 54(1) 19(1) 03(1) 37(1) 34(1) 79(1)
+  first: c24a:31 c27d:51 c27f:62 c2c9:15 c2cb:61 c2cd:73 c2e2:04 c2e4:47 c2fb:01 c2fd:15 c2ff:67 c31d:51 c339:51 c355:51 c371:51 c38d:51 c3a9:51 c3c5:51 c3e1:51 c3fd:51 c419:51 c435:51 c451:51 c46d:51 c489:51 c4a5:51 c4c1:51 c4dd:51 c4f9:51 c515:51 c531:51 c54d:51 c569:51 c585:51 c5a1:51 c5bd:51 c5d9:51 c5f5:51 c611:51 c63f:51
+OP b0: 61 occurrences
+  operands: 31(6) 21(4) 11(4) 32(3) 51(3) 03(3) 23(3) 55(3) 12(2) 41(2) 65(2) 35(2) 05(2) 33(2) 61(2) 45(2) 01(1) 52(1) 73(1) 17(1) 58(1) 06(1) 67(1) 57(1) 47(1) 64(1) 56(1) 46(1) 74(1) 72(1)
+  first: c281:01 c283:12 c285:31 c287:41 c2cf:21 c2d1:31 c2e6:32 c2e8:52 c2ea:73 c301:51 c303:65 c643:17 c66e:35 c690:05 c692:58 c6c7:11 c6c9:21 dced:06 dcef:67 dd2e:12 dd30:32 dd32:57 dd4b:03 dd4d:31 dd4f:47 dd72:23 dd74:55 dd96:11 dd98:23 dd9a:51 dd9c:64 dde6:11 de17:21 de19:32 de1b:56 de36:23 de38:55 de73:03 de75:31 de77:46
+OP b8: 47 occurrences
+  operands: 21(5) 31(4) 51(4) 01(3) 11(3) 65(3) 34(2) 41(2) 24(2) 26(2) 75(1) 45(1) 02(1) 22(1) 4f(1) 76(1) 67(1) 46(1) 12(1) 43(1) 7f(1) 33(1) 16(1) 71(1) 06(1) 68(1) 17(1)
+  first: c2a4:34 c2a6:75 c2ec:21 c305:31 c307:45 c645:02 c647:22 c649:41 c670:01 c672:11 c694:51 c6e8:4f c6f2:21 c6fa:21 dcf1:51 dcf3:65 dd34:41 dd36:51 dd51:34 dd53:76 dd76:21 dd9e:24 dda0:67 de1d:31 de1f:46 de3a:26 de5e:01 de60:12 de62:31 de79:24 de7b:65 ded3:01 ded5:11 def5:26 df0e:31 df10:43 df12:7f dfc9:33 dfcb:65 e049:16
+OP c0: 52 occurrences
+  operands: 35(28) 34(2) 41(2) 48(1) 11(1) 71(1) 52(1) 78(1) 51(1) 64(1) 27(1) 0b(1) 77(1) 02(1) 28(1) 31(1) 04(1) 53(1) 61(1) 01(1) 13(1) 42(1) 62(1)
+  first: c2a8:48 c309:11 c322:35 c33e:35 c35a:35 c376:35 c392:35 c3ae:35 c3ca:35 c3e6:35 c402:35 c41e:35 c43a:35 c456:35 c472:35 c48e:35 c4aa:35 c4c6:35 c4e2:35 c4fe:35 c51a:35 c536:35 c552:35 c56e:35 c58a:35 c5a6:35 c5c2:35 c5de:35 c5fa:35 c616:35 dcf5:34 dcf7:71 dd55:52 dd57:78 dda2:51 dda4:64 de21:27 de3c:0b de7d:34 de7f:77
+OP c8: 49 occurrences
+  operands: 08(28) 71(4) 34(2) 21(2) 01(2) 41(1) 51(1) 31(1) 03(1) 11(1) 36(1) 61(1) 6d(1) 13(1) 43(1) 75(1)
+  first: c2aa:41 c2ac:51 c324:08 c340:08 c35c:08 c378:08 c394:08 c3b0:08 c3cc:08 c3e8:08 c404:08 c420:08 c43c:08 c458:08 c474:08 c490:08 c4ac:08 c4c8:08 c4e4:08 c500:08 c51c:08 c538:08 c554:08 c570:08 c58c:08 c5a8:08 c5c4:08 c5e0:08 c5fc:08 c618:08 c6ea:31 dcf9:03 dcfb:34 dcfd:71 dd59:71 dda6:21 dda8:34 ddaa:71 de23:11 de3e:36
+OP d0: 134 occurrences
+  operands: 50(30) 51(30) 2e(28) 09(4) 59(3) 58(3) 54(2) 52(2) 60(2) 66(2) 68(2) 16(1) 0d(1) 5d(1) 5e(1) 61(1) 63(1) 64(1) 56(1) 57(1) 67(1) 5b(1) 6b(1) 78(1) 1c(1) 37(1) 48(1) 6d(1) 7d(1) 25(1)
+  first: c2a1:16 c31f:2e c326:50 c329:51 c33b:2e c342:50 c345:51 c357:2e c35e:50 c361:51 c373:2e c37a:50 c37d:51 c38f:2e c396:50 c399:51 c3ab:2e c3b2:50 c3b5:51 c3c7:2e c3ce:50 c3d1:51 c3e3:2e c3ea:50 c3ed:51 c3ff:2e c406:50 c409:51 c41b:2e c422:50 c425:51 c437:2e c43e:50 c441:51 c453:2e c45a:50 c45d:51 c46f:2e c476:50 c479:51
+OP d8: 113 occurrences
+  operands: 08(36) 04(28) 09(28) 0c(16) 0f(2) 0b(1) 0d(1) 10(1)
+  first: c227:04 c22a:08 c235:0c c24c:0c c24f:08 c258:08 c261:08 c270:08 c289:08 c298:04 c2ae:04 c2d3:04 c2ee:04 c30b:04 c310:09 c32c:09 c348:09 c364:09 c380:09 c39c:09 c3b8:09 c3d4:09 c3f0:09 c40c:09 c428:09 c444:09 c460:09 c47c:09 c498:09 c4b4:09 c4d0:09 c4ec:09 c508:09 c524:09 c540:09 c55c:09 c578:09 c594:09 c5b0:09 c5cc:09
+OP e0: 9 occurrences
+  operands: 04(9)
+  first: c620:04 e022:04 e061:04 e091:04 e0a8:04 e0d4:04 e0f8:04 e126:04 e14d:04
+OP f0: 633 occurrences
+  operands: 00(633)
+  first: c696:00 c69c:00 c6a3:00 c70c:00 c713:00 c71a:00 c721:00 c728:00 c72f:00 c736:00 c73d:00 c744:00 c74b:00 c752:00 c759:00 c760:00 c767:00 c76e:00 c775:00 c77c:00 c783:00 c78a:00 c791:00 c798:00 c79f:00 c7a6:00 c7ad:00 c7b4:00 c7bb:00 c7c2:00 c7c9:00 c7d0:00 c7d7:00 c7de:00 c7e5:00 c7ec:00 c7f3:00 c7fa:00 c801:00 c808:00
+
+=== INTERESTING STRING OFFSETS ===
+b'open' -> 0xc0d5
+b'system' -> 0xc1c7
+b'exec' -> 0xbfa2
+b'eval' -> 0xc207
+b'compile' -> 0xbe47
+b'cryptography' -> 0xbe4e
+b'AESGCM' -> 0xbbd3
+b'ChaCha20Poly1305' -> 0xbbe3
+b'PBKDF2HMAC' -> 0xbc59
+b'Scrypt' -> 0xbcdf
+b'base64' -> 0xbd9d
+b'hashlib' -> 0xc03c
+b'sha256' -> 0xc18a
+b'decrypt' -> 0xbf45
+b'nonce' -> 0xc0cc
+b'salt' -> 0xc160
+b'ctypes' -> 0xbef8
+b'ptrace' -> 0xc113
+b'gettrace' -> 0xc02e
+b'getprofile' -> 0xc01b
+b'pydevd' -> 0xc11c
+b'debugpy' -> 0xbf34
+b'pdb' -> 0xc0ed
+b'/proc/self/status' -> 0x9ee9
+
+=== BYTE-OPERAND REFERENCES TO STRING OFFSETS ===
+b'open' @ 0xc0d5
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'system' @ 0xc1c7
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'exec' @ 0xbfa2
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'eval' @ 0xc207
+  0xc2de: a0 07
+  0xc628: 88 07
+  0xc68c: a8 07
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc6d0: 88 07
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+b'compile' @ 0xbe47
+  0xc275: 90 47
+  0xc2e4: a8 47
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+b'cryptography' @ 0xbe4e
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'AESGCM' @ 0xbbd3
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'ChaCha20Poly1305' @ 0xbbe3
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'PBKDF2HMAC' @ 0xbc59
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'Scrypt' @ 0xbcdf
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'base64' @ 0xbd9d
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'hashlib' @ 0xc03c
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'sha256' @ 0xc18a
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'decrypt' @ 0xbf45
+  0xc307: b8 45
+  0xc64e: 88 45
+  0xc682: 88 45
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc6c5: a8 45
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+b'nonce' @ 0xc0cc
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'salt' @ 0xc160
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'ctypes' @ 0xbef8
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'ptrace' @ 0xc113
+  0xc633: 90 13
+  0xc664: a0 13
+  0xc680: 88 13
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+b'gettrace' @ 0xc02e
+  0xc31f: d0 2e
+  0xc33b: d0 2e
+  0xc357: d0 2e
+  0xc373: d0 2e
+  0xc38f: d0 2e
+  0xc3ab: d0 2e
+  0xc3c7: d0 2e
+  0xc3e3: d0 2e
+  0xc3ff: d0 2e
+  0xc41b: d0 2e
+  0xc437: d0 2e
+  0xc453: d0 2e
+  0xc46f: d0 2e
+  0xc48b: d0 2e
+  0xc4a7: d0 2e
+  0xc4c3: d0 2e
+  0xc4df: d0 2e
+  0xc4fb: d0 2e
+  0xc517: d0 2e
+  0xc533: d0 2e
+  0xc54f: d0 2e
+  0xc56b: d0 2e
+  0xc587: d0 2e
+  0xc5a3: d0 2e
+  0xc5bf: d0 2e
+  0xc5db: d0 2e
+  0xc5f7: d0 2e
+  0xc613: d0 2e
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+b'getprofile' @ 0xc01b
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'pydevd' @ 0xc11c
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'debugpy' @ 0xbf34
+  0xc25b: 88 34
+  0xc2a4: b8 34
+  0xc2c3: 98 34
+  0xc639: 98 34
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+b'pdb' @ 0xc0ed
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+b'/proc/self/status' @ 0x9ee9
+  0xc696: f0 00
+  0xc69c: f0 00
+  0xc6a3: f0 00
+  0xc70c: f0 00
+  0xc713: f0 00
+  0xc71a: f0 00
+  0xc721: f0 00
+  0xc728: f0 00
+  0xc72f: f0 00
+  0xc736: f0 00
+  0xc73d: f0 00
+  0xc744: f0 00
+  0xc74b: f0 00
+  0xc752: f0 00
+  0xc759: f0 00
+  0xc760: f0 00
+  0xc767: f0 00
+  0xc76e: f0 00
+  0xc775: f0 00
+  0xc77c: f0 00
+  0xc783: f0 00
+  0xc78a: f0 00
+  0xc791: f0 00
+  0xc798: f0 00
+  0xc79f: f0 00
+  0xc7a6: f0 00
+  0xc7ad: f0 00
+  0xc7b4: f0 00
+  0xc7bb: f0 00
+  0xc7c2: f0 00
+  0xc7c9: f0 00
+  0xc7d0: f0 00
+  0xc7d7: f0 00
+  0xc7de: f0 00
+  0xc7e5: f0 00
+  0xc7ec: f0 00
+  0xc7f3: f0 00
+  0xc7fa: f0 00
+  0xc801: f0 00
+  0xc808: f0 00
+  0xc80f: f0 00
+  0xc816: f0 00
+  0xc81d: f0 00
+  0xc824: f0 00
+  0xc82b: f0 00
+  0xc832: f0 00
+  0xc839: f0 00
+  0xc840: f0 00
+  0xc847: f0 00
+  0xc84e: f0 00
+  0xc855: f0 00
+  0xc85c: f0 00
+  0xc863: f0 00
+  0xc86a: f0 00
+  0xc872: f0 00
+  0xc87b: f0 00
+  0xc884: f0 00
+  0xc88d: f0 00
+  0xc896: f0 00
+  0xc89f: f0 00
+  0xc8a8: f0 00
+  0xc8b1: f0 00
+  0xc8ba: f0 00
+  0xc8c3: f0 00
+  0xc8cc: f0 00
+  0xc8d5: f0 00
+  0xc8de: f0 00
+  0xc8e7: f0 00
+  0xc8f0: f0 00
+  0xc8f9: f0 00
+  0xc902: f0 00
+  0xc90b: f0 00
+  0xc914: f0 00
+  0xc91d: f0 00
+  0xc926: f0 00
+  0xc92f: f0 00
+  0xc938: f0 00
+  0xc941: f0 00
+  0xc94a: f0 00
+  0xc953: f0 00
+  0xc95c: f0 00
+  0xc965: f0 00
+  0xc96e: f0 00
+  0xc977: f0 00
+  0xc980: f0 00
+  0xc989: f0 00
+  0xc992: f0 00
+  0xc99b: f0 00
+  0xc9a4: f0 00
+  0xc9ad: f0 00
+  0xc9b6: f0 00
+  0xc9bf: f0 00
+  0xc9c8: f0 00
+  0xc9d1: f0 00
+  0xc9da: f0 00
+  0xc9e3: f0 00
+  0xc9ec: f0 00
+  0xc9f5: f0 00
+  0xc9fe: f0 00
+  0xca07: f0 00
+
+=== RAW STREAM WITH OFFSETS ===
+0x0000c225: 80 01 d8 04 05 d8 08 0b 88 3a 90 51 90 62 98 01  .........:.Q.b..
+0x0000c235: d8 0c 10 90 06 90 65 98 31 98 43 98 71 a0 05 a0  ......e.1.C.q...
+0x0000c245: 51 a0 61 a0 74 a8 31 d8 0c 0d d8 08 0c 88 43 88  Q.a.t.1.......C.
+0x0000c255: 71 90 01 d8 08 0b 88 34 88 75 90 41 d8 08 0d 88  q......4.u.A....
+0x0000c265: 53 90 0a 98 21 98 32 98 51 98 61 d8 08 0e 88 66  S...!.2.Q.a....f
+0x0000c275: 90 47 98 31 98 44 a0 0d a8 51 a8 62 b0 01 b0 12  .G.1.D...Q.b....
+0x0000c285: b0 31 b0 41 d8 08 0e 88 67 90 51 90 65 98 32 98  .1.A....g.Q.e.2.
+0x0000c295: 51 80 01 d8 04 08 88 05 88 58 90 51 d0 16 3b b8  Q........X.Q..;.
+0x0000c2a5: 34 b8 75 c0 48 c8 41 c8 51 d8 04 08 88 05 88 51  4.u.H.A.Q......Q
+0x0000c2b5: 88 61 88 73 90 21 90 33 90 61 90 73 98 21 98 34  .a.s.!.3.a.s.!.4
+0x0000c2c5: 98 74 a0 36 a8 15 a8 61 a8 73 b0 21 b0 31 d8 04  .t.6...a.s.!.1..
+0x0000c2d5: 0a 88 23 88 5b 98 01 98 17 a0 07 a0 71 a8 04 a8  ..#.[.......q...
+0x0000c2e5: 47 b0 32 b0 52 b0 73 b8 21 d8 04 0a 88 24 88 67  G.2.R.s.!....$.g
+0x0000c2f5: 90 51 90 68 98 6a a8 01 a8 15 a8 67 b0 51 b0 65  .Q.h.j.....g.Q.e
+0x0000c305: b8 31 b8 45 c0 11 d8 04 08 88 01 d8 09 0e 88 68  .1.E...........h
+0x0000c315: 90 61 90 79 a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8  .a.y...X.Q..C.5.
+0x0000c325: 08 d0 50 51 d0 51 52 d8 09 0e 88 68 90 61 90 79  ..PQ.QR....h.a.y
+0x0000c335: a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8 08 d0 50 51  ...X.Q..C.5...PQ
+0x0000c345: d0 51 52 d8 09 0e 88 68 90 61 90 79 a0 05 a0 58  .QR....h.a.y...X
+0x0000c355: a8 51 d0 2e 43 c0 35 c8 08 d0 50 51 d0 51 52 d8  .Q..C.5...PQ.QR.
+0x0000c365: 09 0e 88 68 90 61 90 79 a0 05 a0 58 a8 51 d0 2e  ...h.a.y...X.Q..
+0x0000c375: 43 c0 35 c8 08 d0 50 51 d0 51 52 d8 09 0e 88 68  C.5...PQ.QR....h
+0x0000c385: 90 61 90 79 a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8  .a.y...X.Q..C.5.
+0x0000c395: 08 d0 50 51 d0 51 52 d8 09 0e 88 68 90 61 90 79  ..PQ.QR....h.a.y
+0x0000c3a5: a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8 08 d0 50 51  ...X.Q..C.5...PQ
+0x0000c3b5: d0 51 52 d8 09 0e 88 68 90 61 90 79 a0 05 a0 58  .QR....h.a.y...X
+0x0000c3c5: a8 51 d0 2e 43 c0 35 c8 08 d0 50 51 d0 51 52 d8  .Q..C.5...PQ.QR.
+0x0000c3d5: 09 0e 88 68 90 61 90 79 a0 05 a0 58 a8 51 d0 2e  ...h.a.y...X.Q..
+0x0000c3e5: 43 c0 35 c8 08 d0 50 51 d0 51 52 d8 09 0e 88 68  C.5...PQ.QR....h
+0x0000c3f5: 90 61 90 79 a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8  .a.y...X.Q..C.5.
+0x0000c405: 08 d0 50 51 d0 51 52 d8 09 0e 88 68 90 61 90 79  ..PQ.QR....h.a.y
+0x0000c415: a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8 08 d0 50 51  ...X.Q..C.5...PQ
+0x0000c425: d0 51 52 d8 09 0e 88 68 90 61 90 79 a0 05 a0 58  .QR....h.a.y...X
+0x0000c435: a8 51 d0 2e 43 c0 35 c8 08 d0 50 51 d0 51 52 d8  .Q..C.5...PQ.QR.
+0x0000c445: 09 0e 88 68 90 61 90 79 a0 05 a0 58 a8 51 d0 2e  ...h.a.y...X.Q..
+0x0000c455: 43 c0 35 c8 08 d0 50 51 d0 51 52 d8 09 0e 88 68  C.5...PQ.QR....h
+0x0000c465: 90 61 90 79 a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8  .a.y...X.Q..C.5.
+0x0000c475: 08 d0 50 51 d0 51 52 d8 09 0e 88 68 90 61 90 79  ..PQ.QR....h.a.y
+0x0000c485: a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8 08 d0 50 51  ...X.Q..C.5...PQ
+0x0000c495: d0 51 52 d8 09 0e 88 68 90 61 90 79 a0 05 a0 58  .QR....h.a.y...X
+0x0000c4a5: a8 51 d0 2e 43 c0 35 c8 08 d0 50 51 d0 51 52 d8  .Q..C.5...PQ.QR.
+0x0000c4b5: 09 0e 88 68 90 61 90 79 a0 05 a0 58 a8 51 d0 2e  ...h.a.y...X.Q..
+0x0000c4c5: 43 c0 35 c8 08 d0 50 51 d0 51 52 d8 09 0e 88 68  C.5...PQ.QR....h
+0x0000c4d5: 90 61 90 79 a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8  .a.y...X.Q..C.5.
+0x0000c4e5: 08 d0 50 51 d0 51 52 d8 09 0e 88 68 90 61 90 79  ..PQ.QR....h.a.y
+0x0000c4f5: a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8 08 d0 50 51  ...X.Q..C.5...PQ
+0x0000c505: d0 51 52 d8 09 0e 88 68 90 61 90 79 a0 05 a0 58  .QR....h.a.y...X
+0x0000c515: a8 51 d0 2e 43 c0 35 c8 08 d0 50 51 d0 51 52 d8  .Q..C.5...PQ.QR.
+0x0000c525: 09 0e 88 68 90 61 90 79 a0 05 a0 58 a8 51 d0 2e  ...h.a.y...X.Q..
+0x0000c535: 43 c0 35 c8 08 d0 50 51 d0 51 52 d8 09 0e 88 68  C.5...PQ.QR....h
+0x0000c545: 90 61 90 79 a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8  .a.y...X.Q..C.5.
+0x0000c555: 08 d0 50 51 d0 51 52 d8 09 0e 88 68 90 61 90 79  ..PQ.QR....h.a.y
+0x0000c565: a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8 08 d0 50 51  ...X.Q..C.5...PQ
+0x0000c575: d0 51 52 d8 09 0e 88 68 90 61 90 79 a0 05 a0 58  .QR....h.a.y...X
+0x0000c585: a8 51 d0 2e 43 c0 35 c8 08 d0 50 51 d0 51 52 d8  .Q..C.5...PQ.QR.
+0x0000c595: 09 0e 88 68 90 61 90 79 a0 05 a0 58 a8 51 d0 2e  ...h.a.y...X.Q..
+0x0000c5a5: 43 c0 35 c8 08 d0 50 51 d0 51 52 d8 09 0e 88 68  C.5...PQ.QR....h
+0x0000c5b5: 90 61 90 79 a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8  .a.y...X.Q..C.5.
+0x0000c5c5: 08 d0 50 51 d0 51 52 d8 09 0e 88 68 90 61 90 79  ..PQ.QR....h.a.y
+0x0000c5d5: a0 05 a0 58 a8 51 d0 2e 43 c0 35 c8 08 d0 50 51  ...X.Q..C.5...PQ
+0x0000c5e5: d0 51 52 d8 09 0e 88 68 90 61 90 79 a0 05 a0 58  .QR....h.a.y...X
+0x0000c5f5: a8 51 d0 2e 43 c0 35 c8 08 d0 50 51 d0 51 52 d8  .Q..C.5...PQ.QR.
+0x0000c605: 09 0e 88 68 90 61 90 79 a0 05 a0 58 a8 51 d0 2e  ...h.a.y...X.Q..
+0x0000c615: 43 c0 35 c8 08 d0 50 51 d0 51 52 e0 04 0b 88 31  C.5...PQ.QR....1
+0x0000c625: d8 04 08 88 07 88 71 d8 08 0b 88 33 88 63 90 13  ......q....3.c..
+0x0000c635: 90 41 90 56 98 34 98 77 a0 67 a8 51 a8 63 b0 17  .A.V.4.w.g.Q.c..
+0x0000c645: b8 02 b8 22 b8 41 d8 08 0c 88 45 90 11 90 21 90  ...".A....E...!.
+0x0000c655: 32 90 51 90 63 98 11 98 22 98 41 98 53 a0 01 a0  2.Q.c...".A.S...
+0x0000c665: 13 a0 41 a0 54 a8 14 a8 56 b0 35 b8 01 b8 11 d8  ..A.T...V.5.....
+0x0000c675: 08 0e 88 67 90 51 90 61 d8 04 09 88 13 88 45 90  ...g.Q.a......E.
+0x0000c685: 11 90 29 98 36 a0 17 a8 07 a8 71 b0 05 b0 58 b8  ..).6.....q...X.
+0x0000c695: 51 f0 00 00 3f 43 02 f0 00 00 43 02 4a 02 f0 00  Q...?C....C.J...
+0x0000c6a5: 00 4a 02 4b 02 d8 04 08 88 05 88 51 88 61 88 74  .J.K.......Q.a.t
+0x0000c6b5: 90 31 90 43 90 71 98 05 98 51 98 64 a0 24 a0 66  .1.C.q...Q.d.$.f
+0x0000c6c5: a8 45 b0 11 b0 21 d8 04 07 80 71 88 07 88 74 90  .E...!....q...t.
+0x0000c6d5: 31 d8 04 0b 88 31 80 01 d8 04 07 80 71 d8 04 09  1....1......q...
+0x0000c6e5: d0 09 3c b8 4f c8 31 d8 04 09 d0 09 3a b8 21 d8  ..<.O.1.....:.!.
+0x0000c6f5: 04 09 d0 09 3a b8 21 d8 04 09 d0 09 2f a8 71 d8  ....:.!...../.q.
+0x0000c705: 04 0c 88 41 d0 0d 5d f0 00 00 5e 01 6e 02 f0 00  ...A..]...^.n...
+0x0000c715: 00 6e 02 7e 03 f0 00 00 7e 03 4e 05 f0 00 00 4e  .n.~....~.N....N
+0x0000c725: 05 5e 06 f0 00 00 5e 06 6e 07 f0 00 00 6e 07 7e  .^....^.n....n.~
+0x0000c735: 08 f0 00 00 7e 08 4e 0a f0 00 00 4e 0a 5e 0b f0  ....~.N....N.^..
+0x0000c745: 00 00 5e 0b 6e 0c f0 00 00 6e 0c 7e 0d f0 00 00  ..^.n....n.~....
+0x0000c755: 7e 0d 4e 0f f0 00 00 4e 0f 5e 10 f0 00 00 5e 10  ~.N....N.^....^.
+0x0000c765: 6e 11 f0 00 00 6e 11 7e 12 f0 00 00 7e 12 4e 14  n....n.~....~.N.
+0x0000c775: f0 00 00 4e 14 5e 15 f0 00 00 5e 15 6e 16 f0 00  ...N.^....^.n...
+0x0000c785: 00 6e 16 7e 17 f0 00 00 7e 17 4e 19 f0 00 00 4e  .n.~....~.N....N
+0x0000c795: 19 5e 1a f0 00 00 5e 1a 6e 1b f0 00 00 6e 1b 7e  .^....^.n....n.~
+0x0000c7a5: 1c f0 00 00 7e 1c 4e 1e f0 00 00 4e 1e 5e 1f f0  ....~.N....N.^..
+0x0000c7b5: 00 00 5e 1f 6e 20 f0 00 00 6e 20 7e 21 f0 00 00  ..^.n ...n ~!...
+0x0000c7c5: 7e 21 4e 23 f0 00 00 4e 23 5e 24 f0 00 00 5e 24  ~!N#...N#^$...^$
+0x0000c7d5: 6e 25 f0 00 00 6e 25 7e 26 f0 00 00 7e 26 4e 28  n%...n%~&...~&N(
+0x0000c7e5: f0 00 00 4e 28 5e 29 f0 00 00 5e 29 6e 2a f0 00  ...N(^)...^)n*..
+0x0000c7f5: 00 6e 2a 7e 2b f0 00 00 7e 2b 4e 2d f0 00 00 4e  .n*~+...~+N-...N
+0x0000c805: 2d 5e 2e f0 00 00 5e 2e 6e 2f f0 00 00 6e 2f 7e  -^....^.n/...n/~
+0x0000c815: 30 f0 00 00 7e 30 4e 32 f0 00 00 4e 32 5e 33 f0  0...~0N2...N2^3.
+0x0000c825: 00 00 5e 33 6e 34 f0 00 00 6e 34 7e 35 f0 00 00  ..^3n4...n4~5...
+0x0000c835: 7e 35 4e 37 f0 00 00 4e 37 5e 38 f0 00 00 5e 38  ~5N7...N7^8...^8
+0x0000c845: 6e 39 f0 00 00 6e 39 7e 3a f0 00 00 7e 3a 4e 3c  n9...n9~:...~:N<
+0x0000c855: f0 00 00 4e 3c 5e 3d f0 00 00 5e 3d 6e 3e f0 00  ...N<^=...^=n>..
+0x0000c865: 00 6e 3e 7e 3f f0 00 00 7e 3f 4e 41 01 f0 00 00  .n>~?...~?NA....
+0x0000c875: 4e 41 01 5e 42 01 f0 00 00 5e 42 01 6e 43 01 f0  NA.^B....^B.nC..
+0x0000c885: 00 00 6e 43 01 7e 44 01 f0 00 00 7e 44 01 4e 46  ..nC.~D....~D.NF
+0x0000c895: 01 f0 00 00 4e 46 01 5e 47 01 f0 00 00 5e 47 01  ....NF.^G....^G.
+0x0000c8a5: 6e 48 01 f0 00 00 6e 48 01 7e 49 01 f0 00 00 7e  nH....nH.~I....~
+0x0000c8b5: 49 01 4e 4b 01 f0 00 00 4e 4b 01 5e 4c 01 f0 00  I.NK....NK.^L...
+0x0000c8c5: 00 5e 4c 01 6e 4d 01 f0 00 00 6e 4d 01 7e 4e 01  .^L.nM....nM.~N.
+0x0000c8d5: f0 00 00 7e 4e 01 4e 50 01 f0 00 00 4e 50 01 5e  ...~N.NP....NP.^
+0x0000c8e5: 51 01 f0 00 00 5e 51 01 6e 52 01 f0 00 00 6e 52  Q....^Q.nR....nR
+0x0000c8f5: 01 7e 53 01 f0 00 00 7e 53 01 4e 55 01 f0 00 00  .~S....~S.NU....
+0x0000c905: 4e 55 01 5e 56 01 f0 00 00 5e 56 01 6e 57 01 f0  NU.^V....^V.nW..
+0x0000c915: 00 00 6e 57 01 7e 58 01 f0 00 00 7e 58 01 4e 5a  ..nW.~X....~X.NZ
+0x0000c925: 01 f0 00 00 4e 5a 01 5e 5b 01 f0 00 00 5e 5b 01  ....NZ.^[....^[.
+0x0000c935: 6e 5c 01 f0 00 00 6e 5c 01 7e 5d 01 f0 00 00 7e  n\....n\.~]....~
+0x0000c945: 5d 01 4e 5f 01 f0 00 00 4e 5f 01 5e 60 01 f0 00  ].N_....N_.^`...
+0x0000c955: 00 5e 60 01 6e 61 01 f0 00 00 6e 61 01 7e 62 01  .^`.na....na.~b.
+0x0000c965: f0 00 00 7e 62 01 4e 64 01 f0 00 00 4e 64 01 5e  ...~b.Nd....Nd.^
+0x0000c975: 65 01 f0 00 00 5e 65 01 6e 66 01 f0 00 00 6e 66  e....^e.nf....nf
+0x0000c985: 01 7e 67 01 f0 00 00 7e 67 01 4e 69 01 f0 00 00  .~g....~g.Ni....
+0x0000c995: 4e 69 01 5e 6a 01 f0 00 00 5e 6a 01 6e 6b 01 f0  Ni.^j....^j.nk..
+0x0000c9a5: 00 00 6e 6b 01 7e 6c 01 f0 00 00 7e 6c 01 4e 6e  ..nk.~l....~l.Nn
+0x0000c9b5: 01 f0 00 00 4e 6e 01 5e 6f 01 f0 00 00 5e 6f 01  ....Nn.^o....^o.
+0x0000c9c5: 6e 70 01 f0 00 00 6e 70 01 7e 71 01 f0 00 00 7e  np....np.~q....~
+0x0000c9d5: 71 01 4e 73 01 f0 00 00 4e 73 01 5e 74 01 f0 00  q.Ns....Ns.^t...
+0x0000c9e5: 00 5e 74 01 6e 75 01 f0 00 00 6e 75 01 7e 76 01  .^t.nu....nu.~v.
+0x0000c9f5: f0 00 00 7e 76 01 4e 78 01 f0 00 00 4e 78 01 5e  ...~v.Nx....Nx.^
+0x0000ca05: 79 01 f0 00 00 5e 79 01 6e 7a 01 f0 00 00 6e 7a  y....^y.nz....nz
+0x0000ca15: 01 7e 7b 01 f0 00 00 7e 7b 01 4e 7d 01 f0 00 00  .~{....~{.N}....
+0x0000ca25: 4e 7d 01 5e 7e 01 f0 00 00 5e 7e 01 6e 7f 01 f0  N}.^~....^~.n...
+0x0000ca35: 00 00 6e 7f 01 7e 40 02 f0 00 00 7e 40 02 4e 42  ..n..~@....~@.NB
+0x0000ca45: 02 f0 00 00 4e 42 02 5e 43 02 f0 00 00 5e 43 02  ....NB.^C....^C.
+0x0000ca55: 6e 44 02 f0 00 00 6e 44 02 7e 45 02 f0 00 00 7e  nD....nD.~E....~
+0x0000ca65: 45 02 4e 47 02 f0 00 00 4e 47 02 5e 48 02 f0 00  E.NG....NG.^H...
+0x0000ca75: 00 5e 48 02 6e 49 02 f0 00 00 6e 49 02 7e 4a 02  .^H.nI....nI.~J.
+0x0000ca85: f0 00 00 7e 4a 02 4e 4c 02 f0 00 00 4e 4c 02 5e  ...~J.NL....NL.^
+0x0000ca95: 4d 02 f0 00 00 5e 4d 02 6e 4e 02 f0 00 00 6e 4e  M....^M.nN....nN
+0x0000caa5: 02 7e 4f 02 f0 00 00 7e 4f 02 4e 51 02 f0 00 00  .~O....~O.NQ....
+0x0000cab5: 4e 51 02 5e 52 02 f0 00 00 5e 52 02 6e 53 02 f0  NQ.^R....^R.nS..
+0x0000cac5: 00 00 6e 53 02 7e 54 02 f0 00 00 7e 54 02 4e 56  ..nS.~T....~T.NV
+0x0000cad5: 02 f0 00 00 4e 56 02 5e 57 02 f0 00 00 5e 57 02  ....NV.^W....^W.
+0x0000cae5: 6e 58 02 f0 00 00 6e 58 02 7e 59 02 f0 00 00 7e  nX....nX.~Y....~
+0x0000caf5: 59 02 4e 5b 02 f0 00 00 4e 5b 02 5e 5c 02 f0 00  Y.N[....N[.^\...
+0x0000cb05: 00 5e 5c 02 6e 5d 02 f0 00 00 6e 5d 02 7e 5e 02  .^\.n]....n].~^.
+0x0000cb15: f0 00 00 7e 5e 02 4e 60 02 f0 00 00 4e 60 02 5e  ...~^.N`....N`.^
+0x0000cb25: 61 02 f0 00 00 5e 61 02 6e 62 02 f0 00 00 6e 62  a....^a.nb....nb
+0x0000cb35: 02 7e 63 02 f0 00 00 7e 63 02 4e 65 02 f0 00 00  .~c....~c.Ne....
+0x0000cb45: 4e 65 02 5e 66 02 f0 00 00 5e 66 02 6e 67 02 f0  Ne.^f....^f.ng..
+0x0000cb55: 00 00 6e 67 02 7e 68 02 f0 00 00 7e 68 02 4e 6a  ..ng.~h....~h.Nj
+0x0000cb65: 02 f0 00 00 4e 6a 02 5e 6b 02 f0 00 00 5e 6b 02  ....Nj.^k....^k.
+0x0000cb75: 6e 6c 02 f0 00 00 6e 6c 02 7e 6d 02 f0 00 00 7e  nl....nl.~m....~
+0x0000cb85: 6d 02 4e 6f 02 f0 00 00 4e 6f 02 5e 70 02 f0 00  m.No....No.^p...
+0x0000cb95: 00 5e 70 02 6e 71 02 f0 00 00 6e 71 02 7e 72 02  .^p.nq....nq.~r.
+0x0000cba5: f0 00 00 7e 72 02 4e 74 02 f0 00 00 4e 74 02 5e  ...~r.Nt....Nt.^
+0x0000cbb5: 75 02 f0 00 00 5e 75 02 6e 76 02 f0 00 00 6e 76  u....^u.nv....nv
+0x0000cbc5: 02 7e 77 02 f0 00 00 7e 77 02 4e 79 02 f0 00 00  .~w....~w.Ny....
+0x0000cbd5: 4e 79 02 5e 7a 02 f0 00 00 5e 7a 02 6e 7b 02 f0  Ny.^z....^z.n{..
+0x0000cbe5: 00 00 6e 7b 02 7e 7c 02 f0 00 00 7e 7c 02 4e 7e  ..n{.~|....~|.N~
+0x0000cbf5: 02 f0 00 00 4e 7e 02 5e 7f 02 f0 00 00 5e 7f 02  ....N~.^.....^..
+0x0000cc05: 6e 40 03 f0 00 00 6e 40 03 7e 41 03 f0 00 00 7e  n@....n@.~A....~
+0x0000cc15: 41 03 4e 43 03 f0 00 00 4e 43 03 5e 44 03 f0 00  A.NC....NC.^D...
+0x0000cc25: 00 5e 44 03 6e 45 03 f0 00 00 6e 45 03 7e 46 03  .^D.nE....nE.~F.
+0x0000cc35: f0 00 00 7e 46 03 4e 48 03 f0 00 00 4e 48 03 5e  ...~F.NH....NH.^
+0x0000cc45: 49 03 f0 00 00 5e 49 03 6e 4a 03 f0 00 00 6e 4a  I....^I.nJ....nJ
+0x0000cc55: 03 7e 4b 03 f0 00 00 7e 4b 03 4e 4d 03 f0 00 00  .~K....~K.NM....
+0x0000cc65: 4e 4d 03 5e 4e 03 f0 00 00 5e 4e 03 6e 4f 03 f0  NM.^N....^N.nO..
+0x0000cc75: 00 00 6e 4f 03 7e 50 03 f0 00 00 7e 50 03 4e 52  ..nO.~P....~P.NR
+0x0000cc85: 03 f0 00 00 4e 52 03 5e 53 03 f0 00 00 5e 53 03  ....NR.^S....^S.
+0x0000cc95: 6e 54 03 f0 00 00 6e 54 03 7e 55 03 f0 00 00 7e  nT....nT.~U....~
+0x0000cca5: 55 03 4e 57 03 f0 00 00 4e 57 03 5e 58 03 f0 00  U.NW....NW.^X...
+0x0000ccb5: 00 5e 58 03 6e 59 03 f0 00 00 6e 59 03 7e 5a 03  .^X.nY....nY.~Z.
+0x0000ccc5: f0 00 00 7e 5a 03 4e 5c 03 f0 00 00 4e 5c 03 5e  ...~Z.N\....N\.^
+0x0000ccd5: 5d 03 f0 00 00 5e 5d 03 6e 5e 03 f0 00 00 6e 5e  ]....^].n^....n^
+0x0000cce5: 03 7e 5f 03 f0 00 00 7e 5f 03 4e 61 03 f0 00 00  .~_....~_.Na....
+0x0000ccf5: 4e 61 03 5e 62 03 f0 00 00 5e 62 03 6e 63 03 f0  Na.^b....^b.nc..
+0x0000cd05: 00 00 6e 63 03 7e 64 03 f0 00 00 7e 64 03 4e 66  ..nc.~d....~d.Nf
+0x0000cd15: 03 f0 00 00 4e 66 03 5e 67 03 f0 00 00 5e 67 03  ....Nf.^g....^g.
+0x0000cd25: 6e 68 03 f0 00 00 6e 68 03 7e 69 03 f0 00 00 7e  nh....nh.~i....~
+0x0000cd35: 69 03 4e 6b 03 f0 00 00 4e 6b 03 5e 6c 03 f0 00  i.Nk....Nk.^l...
+0x0000cd45: 00 5e 6c 03 6e 6d 03 f0 00 00 6e 6d 03 7e 6e 03  .^l.nm....nm.~n.
+0x0000cd55: f0 00 00 7e 6e 03 4e 70 03 f0 00 00 4e 70 03 5e  ...~n.Np....Np.^
+0x0000cd65: 71 03 f0 00 00 5e 71 03 6e 72 03 f0 00 00 6e 72  q....^q.nr....nr
+0x0000cd75: 03 7e 73 03 f0 00 00 7e 73 03 4e 75 03 f0 00 00  .~s....~s.Nu....
+0x0000cd85: 4e 75 03 5e 76 03 f0 00 00 5e 76 03 6e 77 03 f0  Nu.^v....^v.nw..
+0x0000cd95: 00 00 6e 77 03 7e 78 03 f0 00 00 7e 78 03 4e 7a  ..nw.~x....~x.Nz
+0x0000cda5: 03 f0 00 00 4e 7a 03 5e 7b 03 f0 00 00 5e 7b 03  ....Nz.^{....^{.
+0x0000cdb5: 6e 7c 03 f0 00 00 6e 7c 03 7e 7d 03 f0 00 00 7e  n|....n|.~}....~
+0x0000cdc5: 7d 03 4e 7f 03 f0 00 00 4e 7f 03 5e 40 04 f0 00  }.N.....N..^@...
+0x0000cdd5: 00 5e 40 04 6e 41 04 f0 00 00 6e 41 04 7e 42 04  .^@.nA....nA.~B.
+0x0000cde5: f0 00 00 7e 42 04 4e 44 04 f0 00 00 4e 44 04 5e  ...~B.ND....ND.^
+0x0000cdf5: 45 04 f0 00 00 5e 45 04 6e 46 04 f0 00 00 6e 46  E....^E.nF....nF
+0x0000ce05: 04 7e 47 04 f0 00 00 7e 47 04 4e 49 04 f0 00 00  .~G....~G.NI....
+0x0000ce15: 4e 49 04 5e 4a 04 f0 00 00 5e 4a 04 6e 4b 04 f0  NI.^J....^J.nK..
+0x0000ce25: 00 00 6e 4b 04 7e 4c 04 f0 00 00 7e 4c 04 4e 4e  ..nK.~L....~L.NN
+0x0000ce35: 04 f0 00 00 4e 4e 04 5e 4f 04 f0 00 00 5e 4f 04  ....NN.^O....^O.
+0x0000ce45: 6e 50 04 f0 00 00 6e 50 04 7e 51 04 f0 00 00 7e  nP....nP.~Q....~
+0x0000ce55: 51 04 4e 53 04 f0 00 00 4e 53 04 5e 54 04 f0 00  Q.NS....NS.^T...
+0x0000ce65: 00 5e 54 04 6e 55 04 f0 00 00 6e 55 04 7e 56 04  .^T.nU....nU.~V.
+0x0000ce75: f0 00 00 7e 56 04 4e 58 04 f0 00 00 4e 58 04 5e  ...~V.NX....NX.^
+0x0000ce85: 59 04 f0 00 00 5e 59 04 6e 5a 04 f0 00 00 6e 5a  Y....^Y.nZ....nZ
+0x0000ce95: 04 7e 5b 04 f0 00 00 7e 5b 04 4e 5d 04 f0 00 00  .~[....~[.N]....
+0x0000cea5: 4e 5d 04 5e 5e 04 f0 00 00 5e 5e 04 6e 5f 04 f0  N].^^....^^.n_..
+0x0000ceb5: 00 00 6e 5f 04 7e 60 04 f0 00 00 7e 60 04 4e 62  ..n_.~`....~`.Nb
+0x0000cec5: 04 f0 00 00 4e 62 04 5e 63 04 f0 00 00 5e 63 04  ....Nb.^c....^c.
+0x0000ced5: 6e 64 04 f0 00 00 6e 64 04 7e 65 04 f0 00 00 7e  nd....nd.~e....~
+0x0000cee5: 65 04 4e 67 04 f0 00 00 4e 67 04 5e 68 04 f0 00  e.Ng....Ng.^h...
+0x0000cef5: 00 5e 68 04 6e 69 04 f0 00 00 6e 69 04 7e 6a 04  .^h.ni....ni.~j.
+0x0000cf05: f0 00 00 7e 6a 04 4e 6c 04 f0 00 00 4e 6c 04 5e  ...~j.Nl....Nl.^
+0x0000cf15: 6d 04 f0 00 00 5e 6d 04 6e 6e 04 f0 00 00 6e 6e  m....^m.nn....nn
+0x0000cf25: 04 7e 6f 04 f0 00 00 7e 6f 04 4e 71 04 f0 00 00  .~o....~o.Nq....
+0x0000cf35: 4e 71 04 5e 72 04 f0 00 00 5e 72 04 6e 73 04 f0  Nq.^r....^r.ns..
+0x0000cf45: 00 00 6e 73 04 7e 74 04 f0 00 00 7e 74 04 4e 76  ..ns.~t....~t.Nv
+0x0000cf55: 04 f0 00 00 4e 76 04 5e 77 04 f0 00 00 5e 77 04  ....Nv.^w....^w.
+0x0000cf65: 6e 78 04 f0 00 00 6e 78 04 7e 79 04 f0 00 00 7e  nx....nx.~y....~
+0x0000cf75: 79 04 4e 7b 04 f0 00 00 4e 7b 04 5e 7c 04 f0 00  y.N{....N{.^|...
+0x0000cf85: 00 5e 7c 04 6e 7d 04 f0 00 00 6e 7d 04 7e 7e 04  .^|.n}....n}.~~.
+0x0000cf95: f0 00 00 7e 7e 04 4e 40 05 f0 00 00 4e 40 05 5e  ...~~.N@....N@.^
+0x0000cfa5: 41 05 f0 00 00 5e 41 05 6e 42 05 f0 00 00 6e 42  A....^A.nB....nB
+0x0000cfb5: 05 7e 43 05 f0 00 00 7e 43 05 4e 45 05 f0 00 00  .~C....~C.NE....
+0x0000cfc5: 4e 45 05 5e 46 05 f0 00 00 5e 46 05 6e 47 05 f0  NE.^F....^F.nG..
+0x0000cfd5: 00 00 6e 47 05 7e 48 05 f0 00 00 7e 48 05 4e 4a  ..nG.~H....~H.NJ
+0x0000cfe5: 05 f0 00 00 4e 4a 05 5e 4b 05 f0 00 00 5e 4b 05  ....NJ.^K....^K.
+0x0000cff5: 6e 4c 05 f0 00 00 6e 4c 05 7e 4d 05 f0 00 00 7e  nL....nL.~M....~
+0x0000d005: 4d 05 4e 4f 05 f0 00 00 4e 4f 05 5e 50 05 f0 00  M.NO....NO.^P...
+0x0000d015: 00 5e 50 05 6e 51 05 f0 00 00 6e 51 05 7e 52 05  .^P.nQ....nQ.~R.
+0x0000d025: f0 00 00 7e 52 05 4e 54 05 f0 00 00 4e 54 05 5e  ...~R.NT....NT.^
+0x0000d035: 55 05 f0 00 00 5e 55 05 6e 56 05 f0 00 00 6e 56  U....^U.nV....nV
+0x0000d045: 05 7e 57 05 f0 00 00 7e 57 05 4e 59 05 f0 00 00  .~W....~W.NY....
+0x0000d055: 4e 59 05 5e 5a 05 f0 00 00 5e 5a 05 6e 5b 05 f0  NY.^Z....^Z.n[..
+0x0000d065: 00 00 6e 5b 05 7e 5c 05 f0 00 00 7e 5c 05 4e 5e  ..n[.~\....~\.N^
+0x0000d075: 05 f0 00 00 4e 5e 05 5e 5f 05 f0 00 00 5e 5f 05  ....N^.^_....^_.
+0x0000d085: 6e 60 05 f0 00 00 6e 60 05 7e 61 05 f0 00 00 7e  n`....n`.~a....~
+0x0000d095: 61 05 4e 63 05 f0 00 00 4e 63 05 5e 64 05 f0 00  a.Nc....Nc.^d...
+0x0000d0a5: 00 5e 64 05 6e 65 05 f0 00 00 6e 65 05 7e 66 05  .^d.ne....ne.~f.
+0x0000d0b5: f0 00 00 7e 66 05 4e 68 05 f0 00 00 4e 68 05 5e  ...~f.Nh....Nh.^
+0x0000d0c5: 69 05 f0 00 00 5e 69 05 6e 6a 05 f0 00 00 6e 6a  i....^i.nj....nj
+0x0000d0d5: 05 7e 6b 05 f0 00 00 7e 6b 05 4e 6d 05 f0 00 00  .~k....~k.Nm....
+0x0000d0e5: 4e 6d 05 5e 6e 05 f0 00 00 5e 6e 05 6e 6f 05 f0  Nm.^n....^n.no..
+0x0000d0f5: 00 00 6e 6f 05 7e 70 05 f0 00 00 7e 70 05 4e 72  ..no.~p....~p.Nr
+0x0000d105: 05 f0 00 00 4e 72 05 5e 73 05 f0 00 00 5e 73 05  ....Nr.^s....^s.
+0x0000d115: 6e 74 05 f0 00 00 6e 74 05 7e 75 05 f0 00 00 7e  nt....nt.~u....~
+0x0000d125: 75 05 4e 77 05 f0 00 00 4e 77 05 5e 78 05 f0 00  u.Nw....Nw.^x...
+0x0000d135: 00 5e 78 05 6e 79 05 f0 00 00 6e 79 05 7e 7a 05  .^x.ny....ny.~z.
+0x0000d145: f0 00 00 7e 7a 05 4e 7c 05 f0 00 00 4e 7c 05 5e  ...~z.N|....N|.^
+0x0000d155: 7d 05 f0 00 00 5e 7d 05 6e 7e 05 f0 00 00 6e 7e  }....^}.n~....n~
+0x0000d165: 05 7e 7f 05 f0 00 00 7e 7f 05 4e 41 06 f0 00 00  .~.....~..NA....
+0x0000d175: 4e 41 06 5e 42 06 f0 00 00 5e 42 06 6e 43 06 f0  NA.^B....^B.nC..
+0x0000d185: 00 00 6e 43 06 7e 44 06 f0 00 00 7e 44 06 4e 46  ..nC.~D....~D.NF
+0x0000d195: 06 f0 00 00 4e 46 06 5e 47 06 f0 00 00 5e 47 06  ....NF.^G....^G.
+0x0000d1a5: 6e 48 06 f0 00 00 6e 48 06 7e 49 06 f0 00 00 7e  nH....nH.~I....~
+0x0000d1b5: 49 06 4e 4b 06 f0 00 00 4e 4b 06 5e 4c 06 f0 00  I.NK....NK.^L...
+0x0000d1c5: 00 5e 4c 06 6e 4d 06 f0 00 00 6e 4d 06 7e 4e 06  .^L.nM....nM.~N.
+0x0000d1d5: f0 00 00 7e 4e 06 4e 50 06 f0 00 00 4e 50 06 5e  ...~N.NP....NP.^
+0x0000d1e5: 51 06 f0 00 00 5e 51 06 6e 52 06 f0 00 00 6e 52  Q....^Q.nR....nR
+0x0000d1f5: 06 7e 53 06 f0 00 00 7e 53 06 4e 55 06 f0 00 00  .~S....~S.NU....
+0x0000d205: 4e 55 06 5e 56 06 f0 00 00 5e 56 06 6e 57 06 f0  NU.^V....^V.nW..
+0x0000d215: 00 00 6e 57 06 7e 58 06 f0 00 00 7e 58 06 4e 5a  ..nW.~X....~X.NZ
+
+=== DONE ===
