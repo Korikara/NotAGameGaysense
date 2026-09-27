@@ -1,0 +1,725 @@
+================================================================================
+PYTHON PAYLOAD RECOVERY REPORT
+================================================================================
+
+Input: /data/data/com.termux/files/home/.termux/pakges/h420_I9cSbl/_420_decompressed.bin
+Size:  57,704 bytes
+SHA256: ecdb3266c99f8390ab224bdcfc747a2121c3e762a934cd4e090274ba71ab984f
+
+IMPORTANT: this script only reads/decodes/decompresses data. It never executes recovered code.
+
+--------------------------------------------------------------------------------
+BASIC STATISTICS
+--------------------------------------------------------------------------------
+Global entropy: 6.6398 bits/byte
+Global printable ratio: 0.9237
+
+--------------------------------------------------------------------------------
+IMPORTANT MARKERS
+--------------------------------------------------------------------------------
+_420.py                        count=    1 offsets=0xd31
+__name__                       count=    1 offsets=0xc0c0
+__main__                       count=    1 offsets=0xc09c
+AESGCM                         count=    1 offsets=0xbbd3
+ChaCha20Poly1305               count=    1 offsets=0xbbe3
+PBKDF2HMAC                     count=    1 offsets=0xbc59
+Scrypt                         count=    1 offsets=0xbcdf
+cryptography                   count=    4 offsets=0xbe4e,0xbe6c,0xbe97,0xbec0
+hashlib                        count=    1 offsets=0xc03c
+sha256                         count=    1 offsets=0xc18a
+base64                         count=    1 offsets=0xbd9d
+decrypt                        count=    1 offsets=0xbf45
+nonce                          count=    1 offsets=0xc0cc
+salt                           count=    2 offsets=0xc160,0xc165
+key                            count=    1 offsets=0x450f
+derive                         count=    1 offsets=0xbf4c
+open                           count=    1 offsets=0xc0d5
+exec                           count=    1 offsets=0xbfa2
+system                         count=    1 offsets=0xc1c7
+ctypes                         count=    1 offsets=0xbef8
+
+--------------------------------------------------------------------------------
+_420.PY OCCURRENCES
+--------------------------------------------------------------------------------
+
+OFFSET 0xd31 (context 0x931-0x1131)
+GXW@e=N{aI-FK0wtvK&9#5d&{K1&PWyz@Vi!JB`jP&#PJ@Z#fdO|$=|C;8GJ2qazC<PjOR6S3wl-XhuR>#QxgdPYJLx`_2LEtbyuY1e^XWmhLsxd8)nPkx1O%8|z&|P8;s*e1fV;{2x+jp?Hhd{__foiu>T0AFKn;Ri3p7+%h@w5b(OPU9i;(=9g9Jx#bm|Eb`;cVOdLSv6XBFxiDjx#31f43675_;3ABDFcME3HA1&nBuf7EQRwCT&tG%)lxXY!S9SDdU9brYuIGp9?dUlXp2!4C2L9Po^JhGn)&9P)`@3E_p&SP-;OT{uV>eK3z+obItfZJ`&ze!kJ^>jx*abDyKT@9Ed0QmK*tRtj4XB5o$jvB5@$0ftS~3(N=@gRaMK=sb)}?lHp0R_0^Sw@|3NNHl=6zo!G8t&;dJPVx@A^-s3joNHB5xoTLXom|Z||ya^%3_O_pcxIR^Su<?we;-ECHLH6str+U$YsvQhNH+RwHya-U#?Lmi3QLx_5wkLHAq0Z^eDIz$R}Hn=i3@<oSIsleEWkm(qQlF2A<pqAQ??j`$@w1XowJPL3NDf%$oiJCGC`5MzWhbyEaL#s`kV_Rx#^NgwK3^&uB_!XkyA+%ji#XyKN!+Tb3?XeX{#6^NO&<n0i1o;tg&=ulB^G8Es?&$;=OVDF+d>?<&0p{-3l3b833b843c1d3cLB#Q<_3_jfz`b-aG)TsP{`}9B`1ao>+$mARoQFK|Lh%aL-r*0ZdN*7^Mz&qTdBjZ3%_9HCctM_3dfab1d569dc3099>3l;M^bTo(y<)9q(ahN*tDkNWSYlIN~Op=S3*9+}F7%x43?=fRYPR|~RQZ7W&rgw?oa!>=y{GV-{|3x-^!UO^$l{}U~Sn}MreHPid)|Zi-_}TD9+jiQ0=&h;XxU;RAfwTV1wLq*QBs6GVCEEmF#XC?i)404ed3bb8e11ed0440WT}ONztW=SuPN7uG=Xt@F<i<!-+*^A-w)J?ve}tHCW@!*!mv$M>+%##7AUNgGFUbpAMuGM|D#C_420.py42Tzw(cJaqNUXqD;1<n&Mc=DBu9Z5y9FXCyb`-F#9&=2qc#pcCtVnu1*$zU@9>N5)Xad-0&eUt^x433d4347440b80e952533ca645174520437d54c9c51e4Apl-1vb0Dfzu!g*m%!>6&q|2?674Sc}(hB#u9vaRacU?IaK^JTzWPQ3G`dK`0!!ofxtZIXndE`S#4FfaKy9u>Q(7rMCU4&bdP@ZAuSgMwzsP15Bym`MM9r_*&wWm2DI@Vjp~m{v|+99yf9gXtVgN|ZS4J|x+c0!i)#G7er#$&G>=SQfFg)bOkT?u5{dHhn2oz;=?e{Zmhb&({yv!uAh&6Wq=i#lbbH+tC_?`4U*?#x^QitFEL>I1+0Nf3U(d1WcvH>azA|_Xl=EZie?|&iRyoA5-i`)0T|+i(QGA|7qm&r5kHux4W)JFjtNuARHl9-ChgnooZ;VHb^k&!Fs7vb<R90Tn6+4%f&>M61)^3}ZWiqt!XSb?Kk_X=?YYWt}?4$eeQFseLy>NP6)Trvl)}X3&Q;@(tBHhQ4^@F*GjHX>6kea4Fds%J+gR3xt(Z#sAAClbDC=UCye!4edasN6YW65Rg6VPUtJ)`YbSUEc`2X<uS}q$Di)MYShXuI-hQkz!6BX1`YEh)<Efa~_iiyY5^t@4x9m)%KRE*moFJ#O_21HoyBi(4fkj5T3@QzuuoqFCT((+yMC6@@rin(k%QR^*mQmU{G1vT|qU%#K50u${qfVjYfq%YvU!NMf;R)L&8{WlG?WMg{b3&1+bUPwq9sQFpi<cJmF>{m>;s5k4=Q5sLQpO8D}51WMzDdREC`IlWwqV6vmyaYa-odGV(YH1`XvE3EZ4j2)LD<szG^^&y`K+g6y-88S}JJNR=bs!Pbm59eb8315db637b74d5bd4fe6991d005eb0a880e12df0229c9fa0c06b055cd398@`5Gf_sEZ2yXiVziYN;RV>jil...
+
+--------------------------------------------------------------------------------
+LARGE PRINTABLE REGIONS
+--------------------------------------------------------------------------------
+
+[000] offset=0x0 size=49,701 python_score=32
+:02GB;P{!}gcCDxuwyjXxGFN(nHX%@<Z;2~6%cbiOvf_^=hsyo-vlL9kDYUungEf!{2r#71YiOFk#031560d2078a72a107c9b25afa0e2df2ad0d14324e212235_0G7&tznB1!I-Yt>?8))$`A8M=^Q8Fujsx@NEvPDxQ66C&;uycnbJ@vXPZOAG#D$pSbRv**RwogX<{0~1W54YFJyF>qX?{~T4*Vr^}j$ME2%QxoPhPu~*WE~r<WEW^1)+q-E5&$FaD_$067<9UwE*QhA0?3UHlQ=}@Des0+hy&afp!XjLNO|bsNT9E>$rvD3BZ>Pi9_}b6-`fe&X$hqC=I-eE}ra2hZ4Ha==0~|4d@wXG{(jXE3zO%*SAbaqJYXmR)CHBu1O)XRzA~F0z4==)Q@w&OjB#;%<dS<kHCRr>#~YtlN(0c380db6+0fXWGQuSMQ)9BYG_l4ihRis2r-!9}ME4)5?(UegL(O@B2XfEP(pGM6jrLJgM78(#SAJ<Yq-8O^g+0hpX719h3}kufe40Qfw=H?G{4uYDWhSnG1Mf*i#fW#TiwJdoJxYY-(Q1IONY-MvHoxo2VmN-05$=`0nd#-!TXSL$7qFN?2Z0B!$%}8oVqJ9c00cI+r7CSUwmFjqd;&Jjk|_VwAA<Xy!_|2Xkh5YUh~{0qvE2C0uSbGyM;%A$Ny6rnY3gWM$aqOE>pSPzNy_nGdOGFg=ulgari|50?y-|4v#WK1EIm4-Hzo714i9WKD92E0r#k*u5FA=Ai<vg0o}KrLl?5gb$-WiP(o3pyg((la8**7GYa#apgY|Lmz9DE~h=`_p1IApq0@{r`&Gk~8O(4XV-P31syFDhHpnuGtL&#%iw9YfeTb39|-?(DsFYszFC^-M%eZ6;E>mUyU*1S?mm#rGBe@n$61iwQq15g?z3_YJu`dWR0PH7?JfFP~Tm)0vJXZh9{N=xl2@AbyhO8&ZG2$V^pL}(~1TEN2x$}-Dt~+v!q7L>V9(%bKiqp4$#m2;3%+xwl)nAclFw_Ap#v4I5Rk(#(9!>9uN|8fi-I+%1XZka1F(#uYxi?bzYsrTXpMOlzAdoa9#zW%)`xTB6k;Y9U)7D1c*ZnqCe$346a)Bc{T3K=ow!c8n1~4`PHnS|wiy49}YPRqvd?X#eKpfNbj)o5F2rs`N%GTuHtZ8>tG;H7m6rEL|s(o=1q%A~53_fNa81#4...
+
+--------------------------------------------------------------------------------
+PYC MAGIC CANDIDATES
+--------------------------------------------------------------------------------
+No known candidate pyc magic found.
+
+--------------------------------------------------------------------------------
+COMPRESSION / ARCHIVE SIGNATURES
+--------------------------------------------------------------------------------
+offset=0xe9a type=zlib       magic=785e
+offset=0x2e2d type=zlib       magic=785e
+offset=0x472e type=zlib       magic=785e
+offset=0x825b type=zlib       magic=785e
+offset=0x8b44 type=zlib       magic=785e
+offset=0xb96a type=zlib       magic=785e
+offset=0xc9fc type=zlib       magic=7801
+offset=0xca02 type=zlib       magic=7801
+
+--------------------------------------------------------------------------------
+CRYPTO NEIGHBORHOODS
+--------------------------------------------------------------------------------
+
+[key] offset=0x450f
+0000444f  31 4a 4d 38 24 49 2b 7c 79 46 28 2a 72 32 25 65  |1JM8$I+|yF(*r2%e|
+0000445f  7b 56 57 54 44 2b 4a 7e 4e 55 35 50 3e 65 77 2d  |{VWTD+J~NU5P>ew-|
+0000446f  75 3c 63 42 57 64 42 41 30 4b 7c 4d 28 72 46 5a  |u<cBWdBA0K|M(rFZ|
+0000447f  50 36 28 69 59 67 39 53 47 36 6a 4d 57 65 3d 5a  |P6(iYg9SG6jMWe=Z|
+0000448f  24 60 35 44 7a 2a 41 57 7b 4e 54 47 54 4f 3c 3b  |$`5Dz*AW{NTGTO<;|
+0000449f  4d 52 39 3e 5a 31 2a 78 74 39 5f 2b 6e 75 28 53  |MR9>Z1*xt9_+nu(S|
+000044af  46 4c 75 2b 34 6a 3e 55 58 5f 7b 3b 2a 68 7c 66  |FLu+4j>UX_{;*h|f|
+000044bf  28 5e 67 6f 6e 30 5f 49 77 2a 69 2d 7c 5e 47 36  |(^gon0_Iw*i-|^G6|
+000044cf  31 28 54 6a 78 45 56 3b 3e 5f 42 58 6e 72 65 30  |1(TjxEV;>_BXnre0|
+000044df  4b 7a 6e 6a 55 3e 35 3c 31 7d 4d 56 7b 74 41 5f  |KznjU>5<1}MV{tA_|
+000044ef  33 33 40 55 61 5e 49 2d 7e 2b 76 51 55 24 6d 33  |33@Ua^I-~+vQU$m3|
+000044ff  6f 28 45 4c 51 64 33 48 51 57 73 47 39 39 4d 34  |o(ELQd3HQWsG99M4|
+0000450f  6b 65 79 7b 32 73 6c 60 25 6a 7a 4f 5a 6a 6b 24  |key{2sl`%jzOZjk$|
+0000451f  30 4e 76 4f 65 79 79 7c 59 66 4d 28 43 71 7b 71  |0NvOeyy|YfM(Cq{q|
+0000452f  7e 38 26 65 56 6e 4d 58 42 3e 58 64 34 43 50 30  |~8&eVnMXB>Xd4CP0|
+0000453f  3d 43 78 76 5a 29 79 2b 34 39 24 3f 26 60 39 45  |=CxvZ)y+49$?&`9E|
+0000454f  6b 2b 75 21 76 4f 24 51 77 71 5f 47 28 79 69 65  |k+u!vO$Qwq_G(yie|
+0000455f  24 5a 6d 6e 56 37 4c 56 24 75 29 76 57 61 6b 41  |$ZmnV7LV$u)vWakA|
+0000456f  26 6d 2a 52 3b 7a 6a 78 79 72 38 78 5a 3c 24 46  |&m*R;zjxyr8xZ<$F|
+0000457f  71 31 4d 59 6d 36 7a 25 41 4d 77 46 26 4f 26 30  |q1MYm6z%AMwF&O&0|
+0000458f  55 31 39 2d 39 7e 35 4b 3c 62 65 34 21 37 32 38  |U19-9~5K<be4!728|
+0000459f  51 6f 6d 4c 26 7e 47 37 4b 74 24 63 6c 51 57 50  |QomL&~G7Kt$clQWP|
+000045af  61 64 33 3d 7e 6b 34 55 66 31 7c 39 6b 6b 52 54  |ad3=~k4Uf1|9kkRT|
+000045bf  2a 74 5a 4c 58 74 36 62 5e 7a 71 55 69 2a 4d 29  |*tZLXt6b^zqUi*M)|
+
+[AESGCM] offset=0xbbd3
+0000bb13  65 70 2b 21 2a 39 40 75 7d 3d 7b 66 2d 47 33 72  |ep+!*9@u}={f-G3r|
+0000bb23  66 56 5e 32 5f 48 56 7e 2d 75 46 6d 57 2d 29 2b  |fV^2_HV~-uFmW-)+|
+0000bb33  2d 6b 66 51 7a 23 6f 74 4a 29 26 75 45 49 41 39  |-kfQz#otJ)&uEIA9|
+0000bb43  41 28 7c 21 33 3f 26 31 33 5a 41 7e 35 69 2d 21  |A(|!3?&13ZA~5i-!|
+0000bb53  7a 34 47 6e 6a 61 5e 2a 3f 6b 61 6e 44 2d 62 4f  |z4Gnja^*?kanD-bO|
+0000bb63  24 5f 46 54 30 6f 26 67 69 47 67 67 59 26 45 3f  |$_FT0o&giGggY&E?|
+0000bb73  23 39 6f 54 4b 77 6c 53 31 79 40 54 6d 78 2b 47  |#9oTKwlS1y@Tmx+G|
+0000bb83  26 40 7a 24 70 38 3f 29 6b 2a 26 49 76 39 56 33  |&@z$p8?)k*&Iv9V3|
+0000bb93  6a 52 74 60 29 44 28 2b 3e 67 38 45 7c 46 50 53  |jRt`)D(+>g8E|FPS|
+0000bba3  3b 61 2b 7e 6a 23 4e 7d 74 75 57 46 42 32 21 6f  |;a+~j#N}tuWFB2!o|
+0000bbb3  69 7a 52 78 3e 45 49 21 7b 69 47 56 4a 57 55 4e  |izRx>EI!{iGVJWUN|
+0000bbc3  61 6f 65 30 64 4d 6c 7a 62 67 4f 69 5f 34 32 30  |aoe0dMlzbgOi_420|
+0000bbd3  41 45 53 47 43 4d 5f 41 47 43 44 4c 4c 5f 43 50  |AESGCM_AGCDLL_CP|
+0000bbe3  43 68 61 43 68 61 32 30 50 6f 6c 79 31 33 30 35  |ChaCha20Poly1305|
+0000bbf3  43 68 65 63 6b 52 65 6d 6f 74 65 44 65 62 75 67  |CheckRemoteDebug|
+0000bc03  67 65 72 50 72 65 73 65 6e 74 44 45 42 55 47 50  |gerPresentDEBUGP|
+0000bc13  59 44 61 72 77 69 6e 47 65 74 43 75 72 72 65 6e  |YDarwinGetCurren|
+0000bc23  74 50 72 6f 63 65 73 73 5f 48 53 49 73 44 65 62  |tProcess_HSIsDeb|
+0000bc33  75 67 67 65 72 50 72 65 73 65 6e 74 5f 4d 41 47  |uggerPresent_MAG|
+0000bc43  49 43 5f 4e 43 5f 4e 52 5f 4e 54 4e 6f 6e 65 54  |IC_NC_NR_NTNoneT|
+0000bc53  79 70 65 5f 50 42 50 42 4b 44 46 32 48 4d 41 43  |ype_PBPBKDF2HMAC|
+0000bc63  50 59 43 48 41 52 4d 5f 48 4f 53 54 45 44 5f 50  |PYCHARM_HOSTED_P|
+0000bc73  59 43 48 41 52 4d 5f 49 4e 49 54 50 59 44 45 56  |YCHARM_INITPYDEV|
+0000bc83  44 5f 55 53 45 5f 46 52 41 4d 45 5f 45 56 41 4c  |D_USE_FRAME_EVAL|
+
+[ChaCha20Poly1305] offset=0xbbe3
+0000bb23  66 56 5e 32 5f 48 56 7e 2d 75 46 6d 57 2d 29 2b  |fV^2_HV~-uFmW-)+|
+0000bb33  2d 6b 66 51 7a 23 6f 74 4a 29 26 75 45 49 41 39  |-kfQz#otJ)&uEIA9|
+0000bb43  41 28 7c 21 33 3f 26 31 33 5a 41 7e 35 69 2d 21  |A(|!3?&13ZA~5i-!|
+0000bb53  7a 34 47 6e 6a 61 5e 2a 3f 6b 61 6e 44 2d 62 4f  |z4Gnja^*?kanD-bO|
+0000bb63  24 5f 46 54 30 6f 26 67 69 47 67 67 59 26 45 3f  |$_FT0o&giGggY&E?|
+0000bb73  23 39 6f 54 4b 77 6c 53 31 79 40 54 6d 78 2b 47  |#9oTKwlS1y@Tmx+G|
+0000bb83  26 40 7a 24 70 38 3f 29 6b 2a 26 49 76 39 56 33  |&@z$p8?)k*&Iv9V3|
+0000bb93  6a 52 74 60 29 44 28 2b 3e 67 38 45 7c 46 50 53  |jRt`)D(+>g8E|FPS|
+0000bba3  3b 61 2b 7e 6a 23 4e 7d 74 75 57 46 42 32 21 6f  |;a+~j#N}tuWFB2!o|
+0000bbb3  69 7a 52 78 3e 45 49 21 7b 69 47 56 4a 57 55 4e  |izRx>EI!{iGVJWUN|
+0000bbc3  61 6f 65 30 64 4d 6c 7a 62 67 4f 69 5f 34 32 30  |aoe0dMlzbgOi_420|
+0000bbd3  41 45 53 47 43 4d 5f 41 47 43 44 4c 4c 5f 43 50  |AESGCM_AGCDLL_CP|
+0000bbe3  43 68 61 43 68 61 32 30 50 6f 6c 79 31 33 30 35  |ChaCha20Poly1305|
+0000bbf3  43 68 65 63 6b 52 65 6d 6f 74 65 44 65 62 75 67  |CheckRemoteDebug|
+0000bc03  67 65 72 50 72 65 73 65 6e 74 44 45 42 55 47 50  |gerPresentDEBUGP|
+0000bc13  59 44 61 72 77 69 6e 47 65 74 43 75 72 72 65 6e  |YDarwinGetCurren|
+0000bc23  74 50 72 6f 63 65 73 73 5f 48 53 49 73 44 65 62  |tProcess_HSIsDeb|
+0000bc33  75 67 67 65 72 50 72 65 73 65 6e 74 5f 4d 41 47  |uggerPresent_MAG|
+0000bc43  49 43 5f 4e 43 5f 4e 52 5f 4e 54 4e 6f 6e 65 54  |IC_NC_NR_NTNoneT|
+0000bc53  79 70 65 5f 50 42 50 42 4b 44 46 32 48 4d 41 43  |ype_PBPBKDF2HMAC|
+0000bc63  50 59 43 48 41 52 4d 5f 48 4f 53 54 45 44 5f 50  |PYCHARM_HOSTED_P|
+0000bc73  59 43 48 41 52 4d 5f 49 4e 49 54 50 59 44 45 56  |YCHARM_INITPYDEV|
+0000bc83  44 5f 55 53 45 5f 46 52 41 4d 45 5f 45 56 41 4c  |D_USE_FRAME_EVAL|
+0000bc93  50 59 54 48 4f 4e 42 52 45 41 4b 50 4f 49 4e 54  |PYTHONBREAKPOINT|
+
+[PBKDF2HMAC] offset=0xbc59
+0000bb99  28 2b 3e 67 38 45 7c 46 50 53 3b 61 2b 7e 6a 23  |(+>g8E|FPS;a+~j#|
+0000bba9  4e 7d 74 75 57 46 42 32 21 6f 69 7a 52 78 3e 45  |N}tuWFB2!oizRx>E|
+0000bbb9  49 21 7b 69 47 56 4a 57 55 4e 61 6f 65 30 64 4d  |I!{iGVJWUNaoe0dM|
+0000bbc9  6c 7a 62 67 4f 69 5f 34 32 30 41 45 53 47 43 4d  |lzbgOi_420AESGCM|
+0000bbd9  5f 41 47 43 44 4c 4c 5f 43 50 43 68 61 43 68 61  |_AGCDLL_CPChaCha|
+0000bbe9  32 30 50 6f 6c 79 31 33 30 35 43 68 65 63 6b 52  |20Poly1305CheckR|
+0000bbf9  65 6d 6f 74 65 44 65 62 75 67 67 65 72 50 72 65  |emoteDebuggerPre|
+0000bc09  73 65 6e 74 44 45 42 55 47 50 59 44 61 72 77 69  |sentDEBUGPYDarwi|
+0000bc19  6e 47 65 74 43 75 72 72 65 6e 74 50 72 6f 63 65  |nGetCurrentProce|
+0000bc29  73 73 5f 48 53 49 73 44 65 62 75 67 67 65 72 50  |ss_HSIsDebuggerP|
+0000bc39  72 65 73 65 6e 74 5f 4d 41 47 49 43 5f 4e 43 5f  |resent_MAGIC_NC_|
+0000bc49  4e 52 5f 4e 54 4e 6f 6e 65 54 79 70 65 5f 50 42  |NR_NTNoneType_PB|
+0000bc59  50 42 4b 44 46 32 48 4d 41 43 50 59 43 48 41 52  |PBKDF2HMACPYCHAR|
+0000bc69  4d 5f 48 4f 53 54 45 44 5f 50 59 43 48 41 52 4d  |M_HOSTED_PYCHARM|
+0000bc79  5f 49 4e 49 54 50 59 44 45 56 44 5f 55 53 45 5f  |_INITPYDEVD_USE_|
+0000bc89  46 52 41 4d 45 5f 45 56 41 4c 50 59 54 48 4f 4e  |FRAME_EVALPYTHON|
+0000bc99  42 52 45 41 4b 50 4f 49 4e 54 50 59 54 48 4f 4e  |BREAKPOINTPYTHON|
+0000bca9  44 45 42 55 47 50 59 54 48 4f 4e 48 41 53 48 53  |DEBUGPYTHONHASHS|
+0000bcb9  45 45 44 5f 5f 50 79 78 5f 50 79 44 69 63 74 5f  |EED__Pyx_PyDict_|
+0000bcc9  4e 65 78 74 52 65 66 52 61 6e 64 6f 6d 5f 53 43  |NextRefRandom_SC|
+0000bcd9  53 48 41 32 35 36 53 63 72 79 70 74 54 65 78 74  |SHA256ScryptText|
+0000bce9  49 4f 57 72 61 70 70 65 72 56 53 43 4f 44 45 5f  |IOWrapperVSCODE_|
+0000bcf9  50 49 44 57 69 6e 64 6f 77 73 5f 61 31 31 63 36  |PIDWindows_a11c6|
+0000bd09  65 66 61 38 39 36 38 61 30 61 31 61 33 62 39 61  |efa8968a0a1a3b9a|
+
+[Scrypt] offset=0xbcdf
+0000bc1f  72 72 65 6e 74 50 72 6f 63 65 73 73 5f 48 53 49  |rrentProcess_HSI|
+0000bc2f  73 44 65 62 75 67 67 65 72 50 72 65 73 65 6e 74  |sDebuggerPresent|
+0000bc3f  5f 4d 41 47 49 43 5f 4e 43 5f 4e 52 5f 4e 54 4e  |_MAGIC_NC_NR_NTN|
+0000bc4f  6f 6e 65 54 79 70 65 5f 50 42 50 42 4b 44 46 32  |oneType_PBPBKDF2|
+0000bc5f  48 4d 41 43 50 59 43 48 41 52 4d 5f 48 4f 53 54  |HMACPYCHARM_HOST|
+0000bc6f  45 44 5f 50 59 43 48 41 52 4d 5f 49 4e 49 54 50  |ED_PYCHARM_INITP|
+0000bc7f  59 44 45 56 44 5f 55 53 45 5f 46 52 41 4d 45 5f  |YDEVD_USE_FRAME_|
+0000bc8f  45 56 41 4c 50 59 54 48 4f 4e 42 52 45 41 4b 50  |EVALPYTHONBREAKP|
+0000bc9f  4f 49 4e 54 50 59 54 48 4f 4e 44 45 42 55 47 50  |OINTPYTHONDEBUGP|
+0000bcaf  59 54 48 4f 4e 48 41 53 48 53 45 45 44 5f 5f 50  |YTHONHASHSEED__P|
+0000bcbf  79 78 5f 50 79 44 69 63 74 5f 4e 65 78 74 52 65  |yx_PyDict_NextRe|
+0000bccf  66 52 61 6e 64 6f 6d 5f 53 43 53 48 41 32 35 36  |fRandom_SCSHA256|
+0000bcdf  53 63 72 79 70 74 54 65 78 74 49 4f 57 72 61 70  |ScryptTextIOWrap|
+0000bcef  70 65 72 56 53 43 4f 44 45 5f 50 49 44 57 69 6e  |perVSCODE_PIDWin|
+0000bcff  64 6f 77 73 5f 61 31 31 63 36 65 66 61 38 39 36  |dows_a11c6efa896|
+0000bd0f  38 61 30 61 31 61 33 62 39 61 33 66 37 61 36 32  |8a0a1a3b9a3f7a62|
+0000bd1f  31 61 63 66 63 65 66 63 64 35 36 34 38 38 37 62  |1acfcefcd564887b|
+0000bd2f  65 5f 61 64 5f 61 64 6a 61 6c 67 6f 72 69 74 68  |e_ad_adjalgorith|
+0000bd3f  6d 5f 5f 61 6e 6e 6f 74 61 74 65 5f 5f 61 72 67  |m__annotate__arg|
+0000bd4f  76 5f 61 73 73 65 6d 62 6c 65 61 73 79 6e 63 69  |v_assembleasynci|
+0000bd5f  6f 2e 63 6f 72 6f 75 74 69 6e 65 73 62 62 30 61  |o.coroutinesbb0a|
+0000bd6f  30 62 30 61 64 62 33 32 35 66 36 39 62 64 33 31  |0b0adb325f69bd31|
+0000bd7f  63 36 30 30 66 62 37 34 34 62 38 35 64 65 63 6f  |c600fb744b85deco|
+0000bd8f  64 65 62 39 36 36 5f 62 61 64 5f 65 6e 76 62 61  |deb966_bad_envba|
+
+[base64] offset=0xbd9d
+0000bcdd  35 36 53 63 72 79 70 74 54 65 78 74 49 4f 57 72  |56ScryptTextIOWr|
+0000bced  61 70 70 65 72 56 53 43 4f 44 45 5f 50 49 44 57  |apperVSCODE_PIDW|
+0000bcfd  69 6e 64 6f 77 73 5f 61 31 31 63 36 65 66 61 38  |indows_a11c6efa8|
+0000bd0d  39 36 38 61 30 61 31 61 33 62 39 61 33 66 37 61  |968a0a1a3b9a3f7a|
+0000bd1d  36 32 31 61 63 66 63 65 66 63 64 35 36 34 38 38  |621acfcefcd56488|
+0000bd2d  37 62 65 5f 61 64 5f 61 64 6a 61 6c 67 6f 72 69  |7be_ad_adjalgori|
+0000bd3d  74 68 6d 5f 5f 61 6e 6e 6f 74 61 74 65 5f 5f 61  |thm__annotate__a|
+0000bd4d  72 67 76 5f 61 73 73 65 6d 62 6c 65 61 73 79 6e  |rgv_assembleasyn|
+0000bd5d  63 69 6f 2e 63 6f 72 6f 75 74 69 6e 65 73 62 62  |cio.coroutinesbb|
+0000bd6d  30 61 30 62 30 61 64 62 33 32 35 66 36 39 62 64  |0a0b0adb325f69bd|
+0000bd7d  33 31 63 36 30 30 66 62 37 34 34 62 38 35 64 65  |31c600fb744b85de|
+0000bd8d  63 6f 64 65 62 39 36 36 5f 62 61 64 5f 65 6e 76  |codeb966_bad_env|
+0000bd9d  62 61 73 65 36 34 62 62 30 33 62 64 62 62 66 34  |base64bb03bdbbf4|
+0000bdad  61 32 35 64 63 32 39 35 33 34 66 30 31 62 69 67  |a25dc29534f01big|
+0000bdbd  5f 62 6c 5f 62 6f 6f 74 5f 62 75 66 62 75 66 66  |_bl_boot_bufbuff|
+0000bdcd  65 72 5f 5f 62 75 69 6c 74 69 6e 73 5f 5f 62 79  |er__builtins__by|
+0000bddd  72 65 66 5f 63 63 34 35 36 63 37 65 66 63 5f 63  |ref_cc456c7efc_c|
+0000bded  68 61 72 63 5f 69 6e 74 5f 63 61 5f 63 62 63 62  |harc_int_ca_cbcb|
+0000bdfd  65 36 63 63 30 66 30 38 35 31 65 66 30 35 32 33  |e6cc0f0851ef0523|
+0000be0d  39 35 5f 63 68 75 6e 6b 73 5f 63 6b 73 5f 5f 63  |95_chunks_cks__c|
+0000be1d  6c 61 73 73 5f 67 65 74 69 74 65 6d 5f 5f 63 6c  |lass_getitem__cl|
+0000be2d  69 6e 65 5f 69 6e 5f 74 72 61 63 65 62 61 63 6b  |ine_in_traceback|
+0000be3d  5f 63 6f 63 6f 6c 6c 65 63 74 63 6f 6d 70 69 6c  |_cocollectcompil|
+0000be4d  65 63 72 79 70 74 6f 67 72 61 70 68 79 2e 68 61  |ecryptography.ha|
+
+[cryptography] offset=0xbe4e
+0000bd8e  6f 64 65 62 39 36 36 5f 62 61 64 5f 65 6e 76 62  |odeb966_bad_envb|
+0000bd9e  61 73 65 36 34 62 62 30 33 62 64 62 62 66 34 61  |ase64bb03bdbbf4a|
+0000bdae  32 35 64 63 32 39 35 33 34 66 30 31 62 69 67 5f  |25dc29534f01big_|
+0000bdbe  62 6c 5f 62 6f 6f 74 5f 62 75 66 62 75 66 66 65  |bl_boot_bufbuffe|
+0000bdce  72 5f 5f 62 75 69 6c 74 69 6e 73 5f 5f 62 79 72  |r__builtins__byr|
+0000bdde  65 66 5f 63 63 34 35 36 63 37 65 66 63 5f 63 68  |ef_cc456c7efc_ch|
+0000bdee  61 72 63 5f 69 6e 74 5f 63 61 5f 63 62 63 62 65  |arc_int_ca_cbcbe|
+0000bdfe  36 63 63 30 66 30 38 35 31 65 66 30 35 32 33 39  |6cc0f0851ef05239|
+0000be0e  35 5f 63 68 75 6e 6b 73 5f 63 6b 73 5f 5f 63 6c  |5_chunks_cks__cl|
+0000be1e  61 73 73 5f 67 65 74 69 74 65 6d 5f 5f 63 6c 69  |ass_getitem__cli|
+0000be2e  6e 65 5f 69 6e 5f 74 72 61 63 65 62 61 63 6b 5f  |ne_in_traceback_|
+0000be3e  63 6f 63 6f 6c 6c 65 63 74 63 6f 6d 70 69 6c 65  |cocollectcompile|
+0000be4e  63 72 79 70 74 6f 67 72 61 70 68 79 2e 68 61 7a  |cryptography.haz|
+0000be5e  6d 61 74 2e 70 72 69 6d 69 74 69 76 65 73 63 72  |mat.primitivescr|
+0000be6e  79 70 74 6f 67 72 61 70 68 79 2e 68 61 7a 6d 61  |yptography.hazma|
+0000be7e  74 2e 70 72 69 6d 69 74 69 76 65 73 2e 63 69 70  |t.primitives.cip|
+0000be8e  68 65 72 73 2e 61 65 61 64 63 72 79 70 74 6f 67  |hers.aeadcryptog|
+0000be9e  72 61 70 68 79 2e 68 61 7a 6d 61 74 2e 70 72 69  |raphy.hazmat.pri|
+0000beae  6d 69 74 69 76 65 73 2e 6b 64 66 2e 70 62 6b 64  |mitives.kdf.pbkd|
+0000bebe  66 32 63 72 79 70 74 6f 67 72 61 70 68 79 2e 68  |f2cryptography.h|
+0000bece  61 7a 6d 61 74 2e 70 72 69 6d 69 74 69 76 65 73  |azmat.primitives|
+0000bede  2e 6b 64 66 2e 73 63 72 79 70 74 5f 63 74 5f 63  |.kdf.scrypt_ct_c|
+0000beee  74 5f 62 6c 6f 62 5f 63 74 73 63 74 79 70 65 73  |t_blob_ctsctypes|
+0000befe  64 36 36 66 31 61 33 34 33 62 36 35 63 63 39 33  |d66f1a343b65cc93|
+
+[cryptography] offset=0xbe6c
+0000bdac  34 61 32 35 64 63 32 39 35 33 34 66 30 31 62 69  |4a25dc29534f01bi|
+0000bdbc  67 5f 62 6c 5f 62 6f 6f 74 5f 62 75 66 62 75 66  |g_bl_boot_bufbuf|
+0000bdcc  66 65 72 5f 5f 62 75 69 6c 74 69 6e 73 5f 5f 62  |fer__builtins__b|
+0000bddc  79 72 65 66 5f 63 63 34 35 36 63 37 65 66 63 5f  |yref_cc456c7efc_|
+0000bdec  63 68 61 72 63 5f 69 6e 74 5f 63 61 5f 63 62 63  |charc_int_ca_cbc|
+0000bdfc  62 65 36 63 63 30 66 30 38 35 31 65 66 30 35 32  |be6cc0f0851ef052|
+0000be0c  33 39 35 5f 63 68 75 6e 6b 73 5f 63 6b 73 5f 5f  |395_chunks_cks__|
+0000be1c  63 6c 61 73 73 5f 67 65 74 69 74 65 6d 5f 5f 63  |class_getitem__c|
+0000be2c  6c 69 6e 65 5f 69 6e 5f 74 72 61 63 65 62 61 63  |line_in_tracebac|
+0000be3c  6b 5f 63 6f 63 6f 6c 6c 65 63 74 63 6f 6d 70 69  |k_cocollectcompi|
+0000be4c  6c 65 63 72 79 70 74 6f 67 72 61 70 68 79 2e 68  |lecryptography.h|
+0000be5c  61 7a 6d 61 74 2e 70 72 69 6d 69 74 69 76 65 73  |azmat.primitives|
+0000be6c  63 72 79 70 74 6f 67 72 61 70 68 79 2e 68 61 7a  |cryptography.haz|
+0000be7c  6d 61 74 2e 70 72 69 6d 69 74 69 76 65 73 2e 63  |mat.primitives.c|
+0000be8c  69 70 68 65 72 73 2e 61 65 61 64 63 72 79 70 74  |iphers.aeadcrypt|
+0000be9c  6f 67 72 61 70 68 79 2e 68 61 7a 6d 61 74 2e 70  |ography.hazmat.p|
+0000beac  72 69 6d 69 74 69 76 65 73 2e 6b 64 66 2e 70 62  |rimitives.kdf.pb|
+0000bebc  6b 64 66 32 63 72 79 70 74 6f 67 72 61 70 68 79  |kdf2cryptography|
+0000becc  2e 68 61 7a 6d 61 74 2e 70 72 69 6d 69 74 69 76  |.hazmat.primitiv|
+0000bedc  65 73 2e 6b 64 66 2e 73 63 72 79 70 74 5f 63 74  |es.kdf.scrypt_ct|
+0000beec  5f 63 74 5f 62 6c 6f 62 5f 63 74 73 63 74 79 70  |_ct_blob_ctsctyp|
+0000befc  65 73 64 36 36 66 31 61 33 34 33 62 36 35 63 63  |esd66f1a343b65cc|
+0000bf0c  39 33 64 37 33 39 64 38 31 62 39 61 35 61 37 34  |93d739d81b9a5a74|
+0000bf1c  37 64 62 38 36 65 64 38 61 65 5f 64 61 74 61 5f  |7db86ed8ae_data_|
+
+[cryptography] offset=0xbe97
+0000bdd7  6e 73 5f 5f 62 79 72 65 66 5f 63 63 34 35 36 63  |ns__byref_cc456c|
+0000bde7  37 65 66 63 5f 63 68 61 72 63 5f 69 6e 74 5f 63  |7efc_charc_int_c|
+0000bdf7  61 5f 63 62 63 62 65 36 63 63 30 66 30 38 35 31  |a_cbcbe6cc0f0851|
+0000be07  65 66 30 35 32 33 39 35 5f 63 68 75 6e 6b 73 5f  |ef052395_chunks_|
+0000be17  63 6b 73 5f 5f 63 6c 61 73 73 5f 67 65 74 69 74  |cks__class_getit|
+0000be27  65 6d 5f 5f 63 6c 69 6e 65 5f 69 6e 5f 74 72 61  |em__cline_in_tra|
+0000be37  63 65 62 61 63 6b 5f 63 6f 63 6f 6c 6c 65 63 74  |ceback_cocollect|
+0000be47  63 6f 6d 70 69 6c 65 63 72 79 70 74 6f 67 72 61  |compilecryptogra|
+0000be57  70 68 79 2e 68 61 7a 6d 61 74 2e 70 72 69 6d 69  |phy.hazmat.primi|
+0000be67  74 69 76 65 73 63 72 79 70 74 6f 67 72 61 70 68  |tivescryptograph|
+0000be77  79 2e 68 61 7a 6d 61 74 2e 70 72 69 6d 69 74 69  |y.hazmat.primiti|
+0000be87  76 65 73 2e 63 69 70 68 65 72 73 2e 61 65 61 64  |ves.ciphers.aead|
+0000be97  63 72 79 70 74 6f 67 72 61 70 68 79 2e 68 61 7a  |cryptography.haz|
+0000bea7  6d 61 74 2e 70 72 69 6d 69 74 69 76 65 73 2e 6b  |mat.primitives.k|
+0000beb7  64 66 2e 70 62 6b 64 66 32 63 72 79 70 74 6f 67  |df.pbkdf2cryptog|
+0000bec7  72 61 70 68 79 2e 68 61 7a 6d 61 74 2e 70 72 69  |raphy.hazmat.pri|
+0000bed7  6d 69 74 69 76 65 73 2e 6b 64 66 2e 73 63 72 79  |mitives.kdf.scry|
+0000bee7  70 74 5f 63 74 5f 63 74 5f 62 6c 6f 62 5f 63 74  |pt_ct_ct_blob_ct|
+0000bef7  73 63 74 79 70 65 73 64 36 36 66 31 61 33 34 33  |sctypesd66f1a343|
+0000bf07  62 36 35 63 63 39 33 64 37 33 39 64 38 31 62 39  |b65cc93d739d81b9|
+0000bf17  61 35 61 37 34 37 64 62 38 36 65 64 38 61 65 5f  |a5a747db86ed8ae_|
+0000bf27  64 61 74 61 5f 64 62 67 64 65 62 75 67 64 65 62  |data_dbgdebugdeb|
+0000bf37  75 67 70 79 64 65 63 6f 6d 70 72 65 73 73 64 65  |ugpydecompressde|
+0000bf47  63 72 79 70 74 64 65 72 69 76 65 64 66 36 35 64  |cryptderivedf65d|
+
+[cryptography] offset=0xbec0
+0000be00  63 30 66 30 38 35 31 65 66 30 35 32 33 39 35 5f  |c0f0851ef052395_|
+0000be10  63 68 75 6e 6b 73 5f 63 6b 73 5f 5f 63 6c 61 73  |chunks_cks__clas|
+0000be20  73 5f 67 65 74 69 74 65 6d 5f 5f 63 6c 69 6e 65  |s_getitem__cline|
+0000be30  5f 69 6e 5f 74 72 61 63 65 62 61 63 6b 5f 63 6f  |_in_traceback_co|
+0000be40  63 6f 6c 6c 65 63 74 63 6f 6d 70 69 6c 65 63 72  |collectcompilecr|
+0000be50  79 70 74 6f 67 72 61 70 68 79 2e 68 61 7a 6d 61  |yptography.hazma|
+0000be60  74 2e 70 72 69 6d 69 74 69 76 65 73 63 72 79 70  |t.primitivescryp|
+0000be70  74 6f 67 72 61 70 68 79 2e 68 61 7a 6d 61 74 2e  |tography.hazmat.|
+0000be80  70 72 69 6d 69 74 69 76 65 73 2e 63 69 70 68 65  |primitives.ciphe|
+0000be90  72 73 2e 61 65 61 64 63 72 79 70 74 6f 67 72 61  |rs.aeadcryptogra|
+0000bea0  70 68 79 2e 68 61 7a 6d 61 74 2e 70 72 69 6d 69  |phy.hazmat.primi|
+0000beb0  74 69 76 65 73 2e 6b 64 66 2e 70 62 6b 64 66 32  |tives.kdf.pbkdf2|
+0000bec0  63 72 79 70 74 6f 67 72 61 70 68 79 2e 68 61 7a  |cryptography.haz|
+0000bed0  6d 61 74 2e 70 72 69 6d 69 74 69 76 65 73 2e 6b  |mat.primitives.k|
+0000bee0  64 66 2e 73 63 72 79 70 74 5f 63 74 5f 63 74 5f  |df.scrypt_ct_ct_|
+0000bef0  62 6c 6f 62 5f 63 74 73 63 74 79 70 65 73 64 36  |blob_ctsctypesd6|
+0000bf00  36 66 31 61 33 34 33 62 36 35 63 63 39 33 64 37  |6f1a343b65cc93d7|
+0000bf10  33 39 64 38 31 62 39 61 35 61 37 34 37 64 62 38  |39d81b9a5a747db8|
+0000bf20  36 65 64 38 61 65 5f 64 61 74 61 5f 64 62 67 64  |6ed8ae_data_dbgd|
+0000bf30  65 62 75 67 64 65 62 75 67 70 79 64 65 63 6f 6d  |ebugdebugpydecom|
+0000bf40  70 72 65 73 73 64 65 63 72 79 70 74 64 65 72 69  |pressdecryptderi|
+0000bf50  76 65 64 66 36 35 64 69 67 65 73 74 65 31 63 31  |vedf65digeste1c1|
+0000bf60  37 38 30 32 35 39 66 38 62 37 63 34 65 35 61 36  |780259f8b7c4e5a6|
+0000bf70  39 31 66 30 64 38 31 33 33 31 35 38 65 36 39 61  |91f0d8133158e69a|
+
+[decrypt] offset=0xbf45
+0000be85  74 69 76 65 73 2e 63 69 70 68 65 72 73 2e 61 65  |tives.ciphers.ae|
+0000be95  61 64 63 72 79 70 74 6f 67 72 61 70 68 79 2e 68  |adcryptography.h|
+0000bea5  61 7a 6d 61 74 2e 70 72 69 6d 69 74 69 76 65 73  |azmat.primitives|
+0000beb5  2e 6b 64 66 2e 70 62 6b 64 66 32 63 72 79 70 74  |.kdf.pbkdf2crypt|
+0000bec5  6f 67 72 61 70 68 79 2e 68 61 7a 6d 61 74 2e 70  |ography.hazmat.p|
+0000bed5  72 69 6d 69 74 69 76 65 73 2e 6b 64 66 2e 73 63  |rimitives.kdf.sc|
+0000bee5  72 79 70 74 5f 63 74 5f 63 74 5f 62 6c 6f 62 5f  |rypt_ct_ct_blob_|
+0000bef5  63 74 73 63 74 79 70 65 73 64 36 36 66 31 61 33  |ctsctypesd66f1a3|
+0000bf05  34 33 62 36 35 63 63 39 33 64 37 33 39 64 38 31  |43b65cc93d739d81|
+0000bf15  62 39 61 35 61 37 34 37 64 62 38 36 65 64 38 61  |b9a5a747db86ed8a|
+0000bf25  65 5f 64 61 74 61 5f 64 62 67 64 65 62 75 67 64  |e_data_dbgdebugd|
+0000bf35  65 62 75 67 70 79 64 65 63 6f 6d 70 72 65 73 73  |ebugpydecompress|
+0000bf45  64 65 63 72 79 70 74 64 65 72 69 76 65 64 66 36  |decryptderivedf6|
+0000bf55  35 64 69 67 65 73 74 65 31 63 31 37 38 30 32 35  |5digeste1c178025|
+0000bf65  39 66 38 62 37 63 34 65 35 61 36 39 31 66 30 64  |9f8b7c4e5a691f0d|
+0000bf75  38 31 33 33 31 35 38 65 36 39 61 5f 65 5f 6f 5f  |8133158e69a_e_o_|
+0000bf85  65 6c 65 6e 5f 5f 65 6e 74 65 72 5f 5f 65 6e 75  |elen__enter__enu|
+0000bf95  6d 65 72 61 74 65 65 6e 76 69 72 6f 6e 65 78 65  |merateenvironexe|
+0000bfa5  63 65 78 69 74 5f 5f 65 78 69 74 5f 5f 5f 66 66  |cexit__exit___ff|
+0000bfb5  33 61 64 66 34 37 30 66 39 34 31 66 5f 62 61 63  |3adf470f941f_bac|
+0000bfc5  6b 66 5f 74 72 61 63 65 5f 66 62 66 63 39 63 66  |kf_trace_fbfc9cf|
+0000bfd5  66 66 33 5f 5f 66 69 6c 65 5f 5f 66 6c 61 67 73  |ff3__file__flags|
+0000bfe5  5f 66 72 66 72 6f 6d 5f 61 64 64 72 65 73 73 66  |_frfrom_addressf|
+0000bff5  72 6f 6d 5f 62 79 74 65 73 66 72 6f 6d 68 65 78  |rom_bytesfromhex|
+
+[derive] offset=0xbf4c
+0000be8c  69 70 68 65 72 73 2e 61 65 61 64 63 72 79 70 74  |iphers.aeadcrypt|
+0000be9c  6f 67 72 61 70 68 79 2e 68 61 7a 6d 61 74 2e 70  |ography.hazmat.p|
+0000beac  72 69 6d 69 74 69 76 65 73 2e 6b 64 66 2e 70 62  |rimitives.kdf.pb|
+0000bebc  6b 64 66 32 63 72 79 70 74 6f 67 72 61 70 68 79  |kdf2cryptography|
+0000becc  2e 68 61 7a 6d 61 74 2e 70 72 69 6d 69 74 69 76  |.hazmat.primitiv|
+0000bedc  65 73 2e 6b 64 66 2e 73 63 72 79 70 74 5f 63 74  |es.kdf.scrypt_ct|
+0000beec  5f 63 74 5f 62 6c 6f 62 5f 63 74 73 63 74 79 70  |_ct_blob_ctsctyp|
+0000befc  65 73 64 36 36 66 31 61 33 34 33 62 36 35 63 63  |esd66f1a343b65cc|
+0000bf0c  39 33 64 37 33 39 64 38 31 62 39 61 35 61 37 34  |93d739d81b9a5a74|
+0000bf1c  37 64 62 38 36 65 64 38 61 65 5f 64 61 74 61 5f  |7db86ed8ae_data_|
+0000bf2c  64 62 67 64 65 62 75 67 64 65 62 75 67 70 79 64  |dbgdebugdebugpyd|
+0000bf3c  65 63 6f 6d 70 72 65 73 73 64 65 63 72 79 70 74  |ecompressdecrypt|
+0000bf4c  64 65 72 69 76 65 64 66 36 35 64 69 67 65 73 74  |derivedf65digest|
+0000bf5c  65 31 63 31 37 38 30 32 35 39 66 38 62 37 63 34  |e1c1780259f8b7c4|
+0000bf6c  65 35 61 36 39 31 66 30 64 38 31 33 33 31 35 38  |e5a691f0d8133158|
+0000bf7c  65 36 39 61 5f 65 5f 6f 5f 65 6c 65 6e 5f 5f 65  |e69a_e_o_elen__e|
+0000bf8c  6e 74 65 72 5f 5f 65 6e 75 6d 65 72 61 74 65 65  |nter__enumeratee|
+0000bf9c  6e 76 69 72 6f 6e 65 78 65 63 65 78 69 74 5f 5f  |nvironexecexit__|
+0000bfac  65 78 69 74 5f 5f 5f 66 66 33 61 64 66 34 37 30  |exit___ff3adf470|
+0000bfbc  66 39 34 31 66 5f 62 61 63 6b 66 5f 74 72 61 63  |f941f_backf_trac|
+0000bfcc  65 5f 66 62 66 63 39 63 66 66 66 33 5f 5f 66 69  |e_fbfc9cfff3__fi|
+0000bfdc  6c 65 5f 5f 66 6c 61 67 73 5f 66 72 66 72 6f 6d  |le__flags_frfrom|
+0000bfec  5f 61 64 64 72 65 73 73 66 72 6f 6d 5f 62 79 74  |_addressfrom_byt|
+0000bffc  65 73 66 72 6f 6d 68 65 78 5f 66 74 5f 5f 66 75  |esfromhex_ft__fu|
+
+[hashlib] offset=0xc03c
+0000bf7c  65 36 39 61 5f 65 5f 6f 5f 65 6c 65 6e 5f 5f 65  |e69a_e_o_elen__e|
+0000bf8c  6e 74 65 72 5f 5f 65 6e 75 6d 65 72 61 74 65 65  |nter__enumeratee|
+0000bf9c  6e 76 69 72 6f 6e 65 78 65 63 65 78 69 74 5f 5f  |nvironexecexit__|
+0000bfac  65 78 69 74 5f 5f 5f 66 66 33 61 64 66 34 37 30  |exit___ff3adf470|
+0000bfbc  66 39 34 31 66 5f 62 61 63 6b 66 5f 74 72 61 63  |f941f_backf_trac|
+0000bfcc  65 5f 66 62 66 63 39 63 66 66 66 33 5f 5f 66 69  |e_fbfc9cfff3__fi|
+0000bfdc  6c 65 5f 5f 66 6c 61 67 73 5f 66 72 66 72 6f 6d  |le__flags_frfrom|
+0000bfec  5f 61 64 64 72 65 73 73 66 72 6f 6d 5f 62 79 74  |_addressfrom_byt|
+0000bffc  65 73 66 72 6f 6d 68 65 78 5f 66 74 5f 5f 66 75  |esfromhex_ft__fu|
+0000c00c  6e 63 5f 5f 67 63 5f 67 65 74 66 72 61 6d 65 67  |nc__gc_getframeg|
+0000c01c  65 74 70 72 6f 66 69 6c 65 67 65 74 73 69 7a 65  |etprofilegetsize|
+0000c02c  6f 66 67 65 74 74 72 61 63 65 68 61 73 68 65 73  |ofgettracehashes|
+0000c03c  68 61 73 68 6c 69 62 5f 69 5f 69 63 5f 68 69 64  |hashlib_i_ic_hid|
+0000c04c  5f 69 64 78 5f 69 73 5f 63 6f 72 6f 75 74 69 6e  |_idx_is_coroutin|
+0000c05c  65 69 73 5f 74 72 61 63 69 6e 67 69 74 65 6d 73  |eis_tracingitems|
+0000c06c  69 74 65 72 61 74 69 6f 6e 73 5f 6a 6a 6f 69 6e  |iterations_jjoin|
+0000c07c  5f 6b 5f 6f 6b 65 72 6e 65 6c 33 32 5f 6c 6c 65  |_k_okernel32_lle|
+0000c08c  6e 67 74 68 5f 5f 6c 6f 61 64 65 72 5f 5f 5f 6d  |ngth__loader___m|
+0000c09c  5f 5f 6d 61 69 6e 5f 5f 6d 65 6d 73 65 74 5f 5f  |__main__memset__|
+0000c0ac  6d 6f 64 75 6c 65 5f 5f 6d 6f 64 75 6c 65 73 6e  |module__modulesn|
+0000c0bc  5f 6e 5f 6f 5f 5f 6e 61 6d 65 5f 5f 5f 6e 63 5f  |_n_o__name___nc_|
+0000c0cc  6e 6f 6e 63 65 5f 6f 66 66 6f 70 65 6e 6f 73 70  |nonce_offopenosp|
+0000c0dc  5f 5f 70 61 63 6b 61 67 65 5f 5f 5f 70 61 72 74  |__package___part|
+0000c0ec  73 70 64 62 70 65 72 66 5f 63 6f 75 6e 74 65 72  |spdbperf_counter|
+
+[nonce] offset=0xc0cc
+0000c00c  6e 63 5f 5f 67 63 5f 67 65 74 66 72 61 6d 65 67  |nc__gc_getframeg|
+0000c01c  65 74 70 72 6f 66 69 6c 65 67 65 74 73 69 7a 65  |etprofilegetsize|
+0000c02c  6f 66 67 65 74 74 72 61 63 65 68 61 73 68 65 73  |ofgettracehashes|
+0000c03c  68 61 73 68 6c 69 62 5f 69 5f 69 63 5f 68 69 64  |hashlib_i_ic_hid|
+0000c04c  5f 69 64 78 5f 69 73 5f 63 6f 72 6f 75 74 69 6e  |_idx_is_coroutin|
+0000c05c  65 69 73 5f 74 72 61 63 69 6e 67 69 74 65 6d 73  |eis_tracingitems|
+0000c06c  69 74 65 72 61 74 69 6f 6e 73 5f 6a 6a 6f 69 6e  |iterations_jjoin|
+0000c07c  5f 6b 5f 6f 6b 65 72 6e 65 6c 33 32 5f 6c 6c 65  |_k_okernel32_lle|
+0000c08c  6e 67 74 68 5f 5f 6c 6f 61 64 65 72 5f 5f 5f 6d  |ngth__loader___m|
+0000c09c  5f 5f 6d 61 69 6e 5f 5f 6d 65 6d 73 65 74 5f 5f  |__main__memset__|
+0000c0ac  6d 6f 64 75 6c 65 5f 5f 6d 6f 64 75 6c 65 73 6e  |module__modulesn|
+0000c0bc  5f 6e 5f 6f 5f 5f 6e 61 6d 65 5f 5f 5f 6e 63 5f  |_n_o__name___nc_|
+0000c0cc  6e 6f 6e 63 65 5f 6f 66 66 6f 70 65 6e 6f 73 70  |nonce_offopenosp|
+0000c0dc  5f 5f 70 61 63 6b 61 67 65 5f 5f 5f 70 61 72 74  |__package___part|
+0000c0ec  73 70 64 62 70 65 72 66 5f 63 6f 75 6e 74 65 72  |spdbperf_counter|
+0000c0fc  5f 70 69 5f 70 6b 64 70 6c 61 74 66 6f 72 6d 70  |_pi_pkdplatformp|
+0000c10c  6f 70 5f 70 72 65 76 70 74 72 61 63 65 5f 70 77  |op_prevptrace_pw|
+0000c11c  70 79 64 65 76 64 5f 70 79 64 65 76 64 5f 62 75  |pydevd_pydevd_bu|
+0000c12c  6e 64 6c 65 5f 5f 71 75 61 6c 6e 61 6d 65 5f 5f  |ndle__qualname__|
+0000c13c  72 5f 72 72 61 6e 64 6f 6d 5f 72 61 77 5f 72 67  |r_rrandom_raw_rg|
+0000c14c  65 6e 5f 72 6e 64 5f 72 70 72 70 64 62 32 5f 73  |en_rnd_rprpdb2_s|
+0000c15c  5f 73 5f 6f 73 61 6c 74 5f 73 61 6c 74 73 61 6d  |_s_osalt_saltsam|
+0000c16c  70 6c 65 5f 73 65 65 64 5f 5f 73 65 74 5f 6e 61  |ple_seed__set_na|
+0000c17c  6d 65 5f 5f 73 65 74 64 65 66 61 75 6c 74 73 68  |me__setdefaultsh|
+
+[salt] offset=0xc160
+0000c0a0  69 6e 5f 5f 6d 65 6d 73 65 74 5f 5f 6d 6f 64 75  |in__memset__modu|
+0000c0b0  6c 65 5f 5f 6d 6f 64 75 6c 65 73 6e 5f 6e 5f 6f  |le__modulesn_n_o|
+0000c0c0  5f 5f 6e 61 6d 65 5f 5f 5f 6e 63 5f 6e 6f 6e 63  |__name___nc_nonc|
+0000c0d0  65 5f 6f 66 66 6f 70 65 6e 6f 73 70 5f 5f 70 61  |e_offopenosp__pa|
+0000c0e0  63 6b 61 67 65 5f 5f 5f 70 61 72 74 73 70 64 62  |ckage___partspdb|
+0000c0f0  70 65 72 66 5f 63 6f 75 6e 74 65 72 5f 70 69 5f  |perf_counter_pi_|
+0000c100  70 6b 64 70 6c 61 74 66 6f 72 6d 70 6f 70 5f 70  |pkdplatformpop_p|
+0000c110  72 65 76 70 74 72 61 63 65 5f 70 77 70 79 64 65  |revptrace_pwpyde|
+0000c120  76 64 5f 70 79 64 65 76 64 5f 62 75 6e 64 6c 65  |vd_pydevd_bundle|
+0000c130  5f 5f 71 75 61 6c 6e 61 6d 65 5f 5f 72 5f 72 72  |__qualname__r_rr|
+0000c140  61 6e 64 6f 6d 5f 72 61 77 5f 72 67 65 6e 5f 72  |andom_raw_rgen_r|
+0000c150  6e 64 5f 72 70 72 70 64 62 32 5f 73 5f 73 5f 6f  |nd_rprpdb2_s_s_o|
+0000c160  73 61 6c 74 5f 73 61 6c 74 73 61 6d 70 6c 65 5f  |salt_saltsample_|
+0000c170  73 65 65 64 5f 5f 73 65 74 5f 6e 61 6d 65 5f 5f  |seed__set_name__|
+0000c180  73 65 74 64 65 66 61 75 6c 74 73 68 61 32 35 36  |setdefaultsha256|
+0000c190  5f 73 69 5f 73 69 67 5f 73 6b 5f 73 6d 5f 5f 73  |_si_sig_sk_sm__s|
+0000c1a0  70 65 63 5f 5f 73 70 6c 69 74 5f 73 72 63 73 74  |pec__split_srcst|
+0000c1b0  61 72 74 73 77 69 74 68 73 74 64 6f 75 74 73 74  |artswithstdoutst|
+0000c1c0  72 75 63 74 73 79 73 73 79 73 74 65 6d 5f 73 7a  |ructsyssystem_sz|
+0000c1d0  5f 74 30 5f 5f 74 65 73 74 5f 5f 74 68 72 65 61  |_t0__test__threa|
+0000c1e0  64 69 6e 67 74 69 6d 65 74 6f 5f 62 79 74 65 73  |dingtimeto_bytes|
+0000c1f0  74 72 61 63 65 6d 61 6c 6c 6f 63 75 6e 70 61 63  |tracemallocunpac|
+0000c200  6b 5f 76 76 61 6c 75 65 76 61 6c 75 65 73 77 69  |k_vvaluevalueswi|
+0000c210  6e 64 6c 6c 77 69 6e 67 64 62 73 74 75 62 5f 77  |ndllwingdbstub_w|
+
+[salt] offset=0xc165
+0000c0a5  65 6d 73 65 74 5f 5f 6d 6f 64 75 6c 65 5f 5f 6d  |emset__module__m|
+0000c0b5  6f 64 75 6c 65 73 6e 5f 6e 5f 6f 5f 5f 6e 61 6d  |odulesn_n_o__nam|
+0000c0c5  65 5f 5f 5f 6e 63 5f 6e 6f 6e 63 65 5f 6f 66 66  |e___nc_nonce_off|
+0000c0d5  6f 70 65 6e 6f 73 70 5f 5f 70 61 63 6b 61 67 65  |openosp__package|
+0000c0e5  5f 5f 5f 70 61 72 74 73 70 64 62 70 65 72 66 5f  |___partspdbperf_|
+0000c0f5  63 6f 75 6e 74 65 72 5f 70 69 5f 70 6b 64 70 6c  |counter_pi_pkdpl|
+0000c105  61 74 66 6f 72 6d 70 6f 70 5f 70 72 65 76 70 74  |atformpop_prevpt|
+0000c115  72 61 63 65 5f 70 77 70 79 64 65 76 64 5f 70 79  |race_pwpydevd_py|
+0000c125  64 65 76 64 5f 62 75 6e 64 6c 65 5f 5f 71 75 61  |devd_bundle__qua|
+0000c135  6c 6e 61 6d 65 5f 5f 72 5f 72 72 61 6e 64 6f 6d  |lname__r_rrandom|
+0000c145  5f 72 61 77 5f 72 67 65 6e 5f 72 6e 64 5f 72 70  |_raw_rgen_rnd_rp|
+0000c155  72 70 64 62 32 5f 73 5f 73 5f 6f 73 61 6c 74 5f  |rpdb2_s_s_osalt_|
+0000c165  73 61 6c 74 73 61 6d 70 6c 65 5f 73 65 65 64 5f  |saltsample_seed_|
+0000c175  5f 73 65 74 5f 6e 61 6d 65 5f 5f 73 65 74 64 65  |_set_name__setde|
+0000c185  66 61 75 6c 74 73 68 61 32 35 36 5f 73 69 5f 73  |faultsha256_si_s|
+0000c195  69 67 5f 73 6b 5f 73 6d 5f 5f 73 70 65 63 5f 5f  |ig_sk_sm__spec__|
+0000c1a5  73 70 6c 69 74 5f 73 72 63 73 74 61 72 74 73 77  |split_srcstartsw|
+0000c1b5  69 74 68 73 74 64 6f 75 74 73 74 72 75 63 74 73  |ithstdoutstructs|
+0000c1c5  79 73 73 79 73 74 65 6d 5f 73 7a 5f 74 30 5f 5f  |yssystem_sz_t0__|
+0000c1d5  74 65 73 74 5f 5f 74 68 72 65 61 64 69 6e 67 74  |test__threadingt|
+0000c1e5  69 6d 65 74 6f 5f 62 79 74 65 73 74 72 61 63 65  |imeto_bytestrace|
+0000c1f5  6d 61 6c 6c 6f 63 75 6e 70 61 63 6b 5f 76 76 61  |mallocunpack_vva|
+0000c205  6c 75 65 76 61 6c 75 65 73 77 69 6e 64 6c 6c 77  |luevalueswindllw|
+0000c215  69 6e 67 64 62 73 74 75 62 5f 77 6b 7a 6c 69 62  |ingdbstub_wkzlib|
+
+[sha256] offset=0xc18a
+0000c0ca  63 5f 6e 6f 6e 63 65 5f 6f 66 66 6f 70 65 6e 6f  |c_nonce_offopeno|
+0000c0da  73 70 5f 5f 70 61 63 6b 61 67 65 5f 5f 5f 70 61  |sp__package___pa|
+0000c0ea  72 74 73 70 64 62 70 65 72 66 5f 63 6f 75 6e 74  |rtspdbperf_count|
+0000c0fa  65 72 5f 70 69 5f 70 6b 64 70 6c 61 74 66 6f 72  |er_pi_pkdplatfor|
+0000c10a  6d 70 6f 70 5f 70 72 65 76 70 74 72 61 63 65 5f  |mpop_prevptrace_|
+0000c11a  70 77 70 79 64 65 76 64 5f 70 79 64 65 76 64 5f  |pwpydevd_pydevd_|
+0000c12a  62 75 6e 64 6c 65 5f 5f 71 75 61 6c 6e 61 6d 65  |bundle__qualname|
+0000c13a  5f 5f 72 5f 72 72 61 6e 64 6f 6d 5f 72 61 77 5f  |__r_rrandom_raw_|
+0000c14a  72 67 65 6e 5f 72 6e 64 5f 72 70 72 70 64 62 32  |rgen_rnd_rprpdb2|
+0000c15a  5f 73 5f 73 5f 6f 73 61 6c 74 5f 73 61 6c 74 73  |_s_s_osalt_salts|
+0000c16a  61 6d 70 6c 65 5f 73 65 65 64 5f 5f 73 65 74 5f  |ample_seed__set_|
+0000c17a  6e 61 6d 65 5f 5f 73 65 74 64 65 66 61 75 6c 74  |name__setdefault|
+0000c18a  73 68 61 32 35 36 5f 73 69 5f 73 69 67 5f 73 6b  |sha256_si_sig_sk|
+0000c19a  5f 73 6d 5f 5f 73 70 65 63 5f 5f 73 70 6c 69 74  |_sm__spec__split|
+0000c1aa  5f 73 72 63 73 74 61 72 74 73 77 69 74 68 73 74  |_srcstartswithst|
+0000c1ba  64 6f 75 74 73 74 72 75 63 74 73 79 73 73 79 73  |doutstructsyssys|
+0000c1ca  74 65 6d 5f 73 7a 5f 74 30 5f 5f 74 65 73 74 5f  |tem_sz_t0__test_|
+0000c1da  5f 74 68 72 65 61 64 69 6e 67 74 69 6d 65 74 6f  |_threadingtimeto|
+0000c1ea  5f 62 79 74 65 73 74 72 61 63 65 6d 61 6c 6c 6f  |_bytestracemallo|
+0000c1fa  63 75 6e 70 61 63 6b 5f 76 76 61 6c 75 65 76 61  |cunpack_vvalueva|
+0000c20a  6c 75 65 73 77 69 6e 64 6c 6c 77 69 6e 67 64 62  |lueswindllwingdb|
+0000c21a  73 74 75 62 5f 77 6b 7a 6c 69 62 80 01 d8 04 05  |stub_wkzlib.....|
+0000c22a  d8 08 0b 88 3a 90 51 90 62 98 01 d8 0c 10 90 06  |....:.Q.b.......|
+0000c23a  90 65 98 31 98 43 98 71 a0 05 a0 51 a0 61 a0 74  |.e.1.C.q...Q.a.t|
+
+--------------------------------------------------------------------------------
+EXECUTION / FILE-WRITE NEIGHBORHOODS
+--------------------------------------------------------------------------------
+
+[ctypes] offset=0xbef8
+0000be38  65 62 61 63 6b 5f 63 6f 63 6f 6c 6c 65 63 74 63  |eback_cocollectc|
+0000be48  6f 6d 70 69 6c 65 63 72 79 70 74 6f 67 72 61 70  |ompilecryptograp|
+0000be58  68 79 2e 68 61 7a 6d 61 74 2e 70 72 69 6d 69 74  |hy.hazmat.primit|
+0000be68  69 76 65 73 63 72 79 70 74 6f 67 72 61 70 68 79  |ivescryptography|
+0000be78  2e 68 61 7a 6d 61 74 2e 70 72 69 6d 69 74 69 76  |.hazmat.primitiv|
+0000be88  65 73 2e 63 69 70 68 65 72 73 2e 61 65 61 64 63  |es.ciphers.aeadc|
+0000be98  72 79 70 74 6f 67 72 61 70 68 79 2e 68 61 7a 6d  |ryptography.hazm|
+0000bea8  61 74 2e 70 72 69 6d 69 74 69 76 65 73 2e 6b 64  |at.primitives.kd|
+0000beb8  66 2e 70 62 6b 64 66 32 63 72 79 70 74 6f 67 72  |f.pbkdf2cryptogr|
+0000bec8  61 70 68 79 2e 68 61 7a 6d 61 74 2e 70 72 69 6d  |aphy.hazmat.prim|
+0000bed8  69 74 69 76 65 73 2e 6b 64 66 2e 73 63 72 79 70  |itives.kdf.scryp|
+0000bee8  74 5f 63 74 5f 63 74 5f 62 6c 6f 62 5f 63 74 73  |t_ct_ct_blob_cts|
+0000bef8  63 74 79 70 65 73 64 36 36 66 31 61 33 34 33 62  |ctypesd66f1a343b|
+0000bf08  36 35 63 63 39 33 64 37 33 39 64 38 31 62 39 61  |65cc93d739d81b9a|
+0000bf18  35 61 37 34 37 64 62 38 36 65 64 38 61 65 5f 64  |5a747db86ed8ae_d|
+0000bf28  61 74 61 5f 64 62 67 64 65 62 75 67 64 65 62 75  |ata_dbgdebugdebu|
+0000bf38  67 70 79 64 65 63 6f 6d 70 72 65 73 73 64 65 63  |gpydecompressdec|
+0000bf48  72 79 70 74 64 65 72 69 76 65 64 66 36 35 64 69  |ryptderivedf65di|
+0000bf58  67 65 73 74 65 31 63 31 37 38 30 32 35 39 66 38  |geste1c1780259f8|
+0000bf68  62 37 63 34 65 35 61 36 39 31 66 30 64 38 31 33  |b7c4e5a691f0d813|
+0000bf78  33 31 35 38 65 36 39 61 5f 65 5f 6f 5f 65 6c 65  |3158e69a_e_o_ele|
+0000bf88  6e 5f 5f 65 6e 74 65 72 5f 5f 65 6e 75 6d 65 72  |n__enter__enumer|
+0000bf98  61 74 65 65 6e 76 69 72 6f 6e 65 78 65 63 65 78  |ateenvironexecex|
+0000bfa8  69 74 5f 5f 65 78 69 74 5f 5f 5f 66 66 33 61 64  |it__exit___ff3ad|
+
+[exec] offset=0xbfa2
+0000bee2  2e 73 63 72 79 70 74 5f 63 74 5f 63 74 5f 62 6c  |.scrypt_ct_ct_bl|
+0000bef2  6f 62 5f 63 74 73 63 74 79 70 65 73 64 36 36 66  |ob_ctsctypesd66f|
+0000bf02  31 61 33 34 33 62 36 35 63 63 39 33 64 37 33 39  |1a343b65cc93d739|
+0000bf12  64 38 31 62 39 61 35 61 37 34 37 64 62 38 36 65  |d81b9a5a747db86e|
+0000bf22  64 38 61 65 5f 64 61 74 61 5f 64 62 67 64 65 62  |d8ae_data_dbgdeb|
+0000bf32  75 67 64 65 62 75 67 70 79 64 65 63 6f 6d 70 72  |ugdebugpydecompr|
+0000bf42  65 73 73 64 65 63 72 79 70 74 64 65 72 69 76 65  |essdecryptderive|
+0000bf52  64 66 36 35 64 69 67 65 73 74 65 31 63 31 37 38  |df65digeste1c178|
+0000bf62  30 32 35 39 66 38 62 37 63 34 65 35 61 36 39 31  |0259f8b7c4e5a691|
+0000bf72  66 30 64 38 31 33 33 31 35 38 65 36 39 61 5f 65  |f0d8133158e69a_e|
+0000bf82  5f 6f 5f 65 6c 65 6e 5f 5f 65 6e 74 65 72 5f 5f  |_o_elen__enter__|
+0000bf92  65 6e 75 6d 65 72 61 74 65 65 6e 76 69 72 6f 6e  |enumerateenviron|
+0000bfa2  65 78 65 63 65 78 69 74 5f 5f 65 78 69 74 5f 5f  |execexit__exit__|
+0000bfb2  5f 66 66 33 61 64 66 34 37 30 66 39 34 31 66 5f  |_ff3adf470f941f_|
+0000bfc2  62 61 63 6b 66 5f 74 72 61 63 65 5f 66 62 66 63  |backf_trace_fbfc|
+0000bfd2  39 63 66 66 66 33 5f 5f 66 69 6c 65 5f 5f 66 6c  |9cfff3__file__fl|
+0000bfe2  61 67 73 5f 66 72 66 72 6f 6d 5f 61 64 64 72 65  |ags_frfrom_addre|
+0000bff2  73 73 66 72 6f 6d 5f 62 79 74 65 73 66 72 6f 6d  |ssfrom_bytesfrom|
+0000c002  68 65 78 5f 66 74 5f 5f 66 75 6e 63 5f 5f 67 63  |hex_ft__func__gc|
+0000c012  5f 67 65 74 66 72 61 6d 65 67 65 74 70 72 6f 66  |_getframegetprof|
+0000c022  69 6c 65 67 65 74 73 69 7a 65 6f 66 67 65 74 74  |ilegetsizeofgett|
+0000c032  72 61 63 65 68 61 73 68 65 73 68 61 73 68 6c 69  |racehasheshashli|
+0000c042  62 5f 69 5f 69 63 5f 68 69 64 5f 69 64 78 5f 69  |b_i_ic_hid_idx_i|
+0000c052  73 5f 63 6f 72 6f 75 74 69 6e 65 69 73 5f 74 72  |s_coroutineis_tr|
+
+[open] offset=0xc0d5
+0000c015  74 66 72 61 6d 65 67 65 74 70 72 6f 66 69 6c 65  |tframegetprofile|
+0000c025  67 65 74 73 69 7a 65 6f 66 67 65 74 74 72 61 63  |getsizeofgettrac|
+0000c035  65 68 61 73 68 65 73 68 61 73 68 6c 69 62 5f 69  |ehasheshashlib_i|
+0000c045  5f 69 63 5f 68 69 64 5f 69 64 78 5f 69 73 5f 63  |_ic_hid_idx_is_c|
+0000c055  6f 72 6f 75 74 69 6e 65 69 73 5f 74 72 61 63 69  |oroutineis_traci|
+0000c065  6e 67 69 74 65 6d 73 69 74 65 72 61 74 69 6f 6e  |ngitemsiteration|
+0000c075  73 5f 6a 6a 6f 69 6e 5f 6b 5f 6f 6b 65 72 6e 65  |s_jjoin_k_okerne|
+0000c085  6c 33 32 5f 6c 6c 65 6e 67 74 68 5f 5f 6c 6f 61  |l32_llength__loa|
+0000c095  64 65 72 5f 5f 5f 6d 5f 5f 6d 61 69 6e 5f 5f 6d  |der___m__main__m|
+0000c0a5  65 6d 73 65 74 5f 5f 6d 6f 64 75 6c 65 5f 5f 6d  |emset__module__m|
+0000c0b5  6f 64 75 6c 65 73 6e 5f 6e 5f 6f 5f 5f 6e 61 6d  |odulesn_n_o__nam|
+0000c0c5  65 5f 5f 5f 6e 63 5f 6e 6f 6e 63 65 5f 6f 66 66  |e___nc_nonce_off|
+0000c0d5  6f 70 65 6e 6f 73 70 5f 5f 70 61 63 6b 61 67 65  |openosp__package|
+0000c0e5  5f 5f 5f 70 61 72 74 73 70 64 62 70 65 72 66 5f  |___partspdbperf_|
+0000c0f5  63 6f 75 6e 74 65 72 5f 70 69 5f 70 6b 64 70 6c  |counter_pi_pkdpl|
+0000c105  61 74 66 6f 72 6d 70 6f 70 5f 70 72 65 76 70 74  |atformpop_prevpt|
+0000c115  72 61 63 65 5f 70 77 70 79 64 65 76 64 5f 70 79  |race_pwpydevd_py|
+0000c125  64 65 76 64 5f 62 75 6e 64 6c 65 5f 5f 71 75 61  |devd_bundle__qua|
+0000c135  6c 6e 61 6d 65 5f 5f 72 5f 72 72 61 6e 64 6f 6d  |lname__r_rrandom|
+0000c145  5f 72 61 77 5f 72 67 65 6e 5f 72 6e 64 5f 72 70  |_raw_rgen_rnd_rp|
+0000c155  72 70 64 62 32 5f 73 5f 73 5f 6f 73 61 6c 74 5f  |rpdb2_s_s_osalt_|
+0000c165  73 61 6c 74 73 61 6d 70 6c 65 5f 73 65 65 64 5f  |saltsample_seed_|
+0000c175  5f 73 65 74 5f 6e 61 6d 65 5f 5f 73 65 74 64 65  |_set_name__setde|
+0000c185  66 61 75 6c 74 73 68 61 32 35 36 5f 73 69 5f 73  |faultsha256_si_s|
+
+[system] offset=0xc1c7
+0000c107  66 6f 72 6d 70 6f 70 5f 70 72 65 76 70 74 72 61  |formpop_prevptra|
+0000c117  63 65 5f 70 77 70 79 64 65 76 64 5f 70 79 64 65  |ce_pwpydevd_pyde|
+0000c127  76 64 5f 62 75 6e 64 6c 65 5f 5f 71 75 61 6c 6e  |vd_bundle__qualn|
+0000c137  61 6d 65 5f 5f 72 5f 72 72 61 6e 64 6f 6d 5f 72  |ame__r_rrandom_r|
+0000c147  61 77 5f 72 67 65 6e 5f 72 6e 64 5f 72 70 72 70  |aw_rgen_rnd_rprp|
+0000c157  64 62 32 5f 73 5f 73 5f 6f 73 61 6c 74 5f 73 61  |db2_s_s_osalt_sa|
+0000c167  6c 74 73 61 6d 70 6c 65 5f 73 65 65 64 5f 5f 73  |ltsample_seed__s|
+0000c177  65 74 5f 6e 61 6d 65 5f 5f 73 65 74 64 65 66 61  |et_name__setdefa|
+0000c187  75 6c 74 73 68 61 32 35 36 5f 73 69 5f 73 69 67  |ultsha256_si_sig|
+0000c197  5f 73 6b 5f 73 6d 5f 5f 73 70 65 63 5f 5f 73 70  |_sk_sm__spec__sp|
+0000c1a7  6c 69 74 5f 73 72 63 73 74 61 72 74 73 77 69 74  |lit_srcstartswit|
+0000c1b7  68 73 74 64 6f 75 74 73 74 72 75 63 74 73 79 73  |hstdoutstructsys|
+0000c1c7  73 79 73 74 65 6d 5f 73 7a 5f 74 30 5f 5f 74 65  |system_sz_t0__te|
+0000c1d7  73 74 5f 5f 74 68 72 65 61 64 69 6e 67 74 69 6d  |st__threadingtim|
+0000c1e7  65 74 6f 5f 62 79 74 65 73 74 72 61 63 65 6d 61  |eto_bytestracema|
+0000c1f7  6c 6c 6f 63 75 6e 70 61 63 6b 5f 76 76 61 6c 75  |llocunpack_vvalu|
+0000c207  65 76 61 6c 75 65 73 77 69 6e 64 6c 6c 77 69 6e  |evalueswindllwin|
+0000c217  67 64 62 73 74 75 62 5f 77 6b 7a 6c 69 62 80 01  |gdbstub_wkzlib..|
+0000c227  d8 04 05 d8 08 0b 88 3a 90 51 90 62 98 01 d8 0c  |.......:.Q.b....|
+0000c237  10 90 06 90 65 98 31 98 43 98 71 a0 05 a0 51 a0  |....e.1.C.q...Q.|
+0000c247  61 a0 74 a8 31 d8 0c 0d d8 08 0c 88 43 88 71 90  |a.t.1.......C.q.|
+0000c257  01 d8 08 0b 88 34 88 75 90 41 d8 08 0d 88 53 90  |.....4.u.A....S.|
+0000c267  0a 98 21 98 32 98 51 98 61 d8 08 0e 88 66 90 47  |..!.2.Q.a....f.G|
+0000c277  98 31 98 44 a0 0d a8 51 a8 62 b0 01 b0 12 b0 31  |.1.D...Q.b.....1|
+
+--------------------------------------------------------------------------------
+TELEGRAM SCAN
+--------------------------------------------------------------------------------
+
+[bot] offset=0x9885
+rrXig{8p{h84jJ5___>Zn9oAu>XQtA{RLlVaRu-;t8-??!r^Y!H`Rd5)W9O1W-?8&1QLjXKrFh-#n+TWg3s9gBt2KWMr$qfWnM@sQt<QkJ^0u40GZnr`Po*t5v?KKe}5Q!)`7uCX?mW(=!n43>o~mlN0;o6Z?`EFod}%o28A|P-GnZFv3odrS)+Pw%_)N4{!94-BP^=&cX79O<#*?0+R_XZg2~Hg5;VrPor&*@H&clTBN@|l&{+%8>M|@n+7W#yG0IDRgqN0Udi8e4+&V}Huzz>L3->t(7_|>lve6(XF!5&0)*W~92-mtgb9R8y+#Cmf_aFg=^n?iH_WDj$N73a^(3>{1N+^Go)gTvJ^ED0PvA%8FtXo(u&^4g({1#geW6E&aquf7i(dd2>A;Rtynd+<dS1iBk=VK4t<RE2qcpC-VdNj$nXEjnb`=o(pqY6Mc1NrJAOBPh{J88f_5L2n0IH#<4>VFVpC-nfK?uaFHUGb$TliX7|Acd=0_nu*QmqqQB&QBOTCNr3TX29A99c2{Cc;!RV8mTX#n7)&KDWYBrlrni{|lMO+jRv8i!>{+CH$4&3t}Ypzf*T&rOv*PkfpX+d;PLI`tvJA_7pYw}=Xv2HT|YiR{D%`zp30nma?Ic7QaWhOE<I&V+NCf#Y<>qOk*iX)C9CZ3M}BDzxoE@~6zUGanDN4?4ki7!_oemU=N;A5+1h;<o3njd?!rlrI>yw@d+9QOiNYrv{1eQ72K?@_Dyz%GH%h~nI(9=ua2p`q(DU^5EvXsP6{#vQ?cIw2o3r(o$*pk?Bu@pu~n*rv9@YN=7D|(Na1OZTcg*s2mfzlpCgO=|$JZg%?@#6qCBpTo}^ca@zFMge7o5Dgo)noj;u-2h-L38Ge1as}GW;cg*UC#q#-K;As&j&2JOk8YEYcIZBFunoe`1Q1oopw$V$Hm+%soG{aOesiyK(n4ln~Fs_ID5pIHbfZL$0++(#uC9j+sFp(`%SfNXj^mx>PG&b+la)E|e4xvEzTH-IgoHS)lgk;Od4Rk(Ey
+
+--------------------------------------------------------------------------------
+HIGH-ENTROPY BLOCKS
+--------------------------------------------------------------------------------
+Found 0 blocks with entropy >= 7.2.
+
+--------------------------------------------------------------------------------
+PYTHON-LIKE WINDOWS
+--------------------------------------------------------------------------------
+offset=0xa400 size=8192 score=24 entropy=6.4975 printable=0.9653
+offset=0xa800 size=8192 score=22 entropy=6.6462 printable=0.8923
+offset=0xac00 size=8192 score=22 entropy=6.6180 printable=0.8242
+offset=0xb000 size=8192 score=20 entropy=6.5020 printable=0.7545
+offset=0xb400 size=8192 score=20 entropy=6.3156 printable=0.6844
+offset=0xb800 size=8192 score=20 entropy=6.0577 printable=0.6227
+offset=0xbc00 size=8192 score=18 entropy=5.7440 printable=0.5699
+offset=0xa000 size=8192 score=15 entropy=6.3873 printable=1.0000
+offset=0xc000 size=8192 score=10 entropy=5.7376 printable=0.4935
+offset=0x7c00 size=8192 score=9 entropy=6.4019 printable=1.0000
+offset=0x8000 size=8192 score=9 entropy=6.4049 printable=1.0000
+offset=0x8400 size=8192 score=9 entropy=6.4038 printable=1.0000
+offset=0x8800 size=8192 score=9 entropy=6.4028 printable=1.0000
+offset=0x8c00 size=8192 score=9 entropy=6.4014 printable=1.0000
+offset=0x9000 size=8192 score=9 entropy=6.4014 printable=1.0000
+offset=0x9400 size=8192 score=9 entropy=6.3996 printable=1.0000
+offset=0x9800 size=8192 score=9 entropy=6.4012 printable=1.0000
+offset=0x0 size=8192 score=6 entropy=6.3840 printable=1.0000
+offset=0x400 size=8192 score=6 entropy=6.3857 printable=1.0000
+offset=0x800 size=8192 score=6 entropy=6.3893 printable=1.0000
+offset=0xc00 size=8192 score=6 entropy=6.3919 printable=1.0000
+offset=0x9c00 size=8192 score=6 entropy=6.4019 printable=1.0000
+offset=0x2800 size=8192 score=5 entropy=6.4023 printable=1.0000
+offset=0x2c00 size=8192 score=5 entropy=6.4025 printable=1.0000
+offset=0x3000 size=8192 score=5 entropy=6.4027 printable=1.0000
+offset=0x3400 size=8192 score=5 entropy=6.4024 printable=1.0000
+offset=0x3800 size=8192 score=5 entropy=6.4016 printable=1.0000
+offset=0x3c00 size=8192 score=5 entropy=6.3998 printable=1.0000
+offset=0x4000 size=8192 score=5 entropy=6.4003 printable=1.0000
+offset=0x4400 size=8192 score=5 entropy=6.4009 printable=1.0000
+offset=0x4800 size=8192 score=5 entropy=6.4011 printable=1.0000
+offset=0x4c00 size=8192 score=5 entropy=6.4012 printable=1.0000
+offset=0x5000 size=8192 score=5 entropy=6.4021 printable=1.0000
+offset=0x1000 size=8192 score=4 entropy=6.3935 printable=1.0000
+offset=0x1400 size=8192 score=4 entropy=6.3964 printable=1.0000
+offset=0x1800 size=8192 score=4 entropy=6.3989 printable=1.0000
+offset=0x1c00 size=8192 score=4 entropy=6.4005 printable=1.0000
+offset=0x2000 size=8192 score=4 entropy=6.4018 printable=1.0000
+offset=0x2400 size=8192 score=4 entropy=6.4015 printable=1.0000
+offset=0x5400 size=8192 score=4 entropy=6.4022 printable=1.0000
+offset=0x5800 size=8192 score=4 entropy=6.4015 printable=1.0000
+offset=0x5c00 size=8192 score=4 entropy=6.3997 printable=1.0000
+offset=0x6000 size=8192 score=4 entropy=6.3997 printable=1.0000
+offset=0x6400 size=8192 score=4 entropy=6.3993 printable=1.0000
+offset=0x6800 size=8192 score=4 entropy=6.3998 printable=1.0000
+offset=0x6c00 size=8192 score=4 entropy=6.4009 printable=1.0000
+offset=0x7000 size=8192 score=4 entropy=6.4011 printable=1.0000
+offset=0x7400 size=8192 score=4 entropy=6.4015 printable=1.0000
+offset=0x7800 size=8192 score=4 entropy=6.4014 printable=1.0000
+
+--------------------------------------------------------------------------------
+DECODED CANDIDATES
+--------------------------------------------------------------------------------
+
+base64 offset=0x17c0 encoded=84 decoded=63
+decoded_entropy=5.3142 decoded_printable=0.3016 python_score=0
+decoded_path=payload_recovery/decoded/base64_0000_offset_000017c0.bin
+
+base64 offset=0x10a5 encoded=67 decoded=50
+decoded_entropy=5.1888 decoded_printable=0.3000 python_score=0
+decoded_path=payload_recovery/decoded/base64_0001_offset_000010a5.bin
+
+hex offset=0x17c0 encoded=84 decoded=42
+decoded_entropy=5.2971 decoded_printable=0.4048 python_score=0
+decoded_path=payload_recovery/decoded/hex_0002_offset_000017c0.bin
+
+base64 offset=0x130b encoded=51 decoded=38
+decoded_entropy=4.8924 decoded_printable=0.3158 python_score=0
+decoded_path=payload_recovery/decoded/base64_0003_offset_0000130b.bin
+
+hex offset=0x10a8 encoded=64 decoded=32
+decoded_entropy=5.0000 decoded_printable=0.3125 python_score=0
+decoded_path=payload_recovery/decoded/hex_0004_offset_000010a8.bin
+
+base64 offset=0x759 encoded=42 decoded=31
+decoded_entropy=4.3216 decoded_printable=0.2258 python_score=0
+decoded_path=payload_recovery/decoded/base64_0005_offset_00000759.bin
+
+base64 offset=0x1a94 encoded=39 decoded=29
+decoded_entropy=3.9783 decoded_printable=0.1724 python_score=0
+decoded_path=payload_recovery/decoded/base64_0006_offset_00001a94.bin
+
+================================================================================
+END OF REPORT
+================================================================================
